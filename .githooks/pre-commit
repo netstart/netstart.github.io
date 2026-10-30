@@ -1,0 +1,16 @@
+#!/bin/sh
+# Hook de pre-commit do site netstart.github.io: valida os arquivos que vao ser commitados.
+# Instale com .githooks/install.sh ou .githooks/install.ps1 (git config core.hooksPath .githooks).
+ROOT="$(git rev-parse --show-toplevel)"
+if command -v python >/dev/null 2>&1; then
+  PY=python
+elif command -v python3 >/dev/null 2>&1; then
+  PY=python3
+else
+  echo "pre-commit: python nao encontrado; instale o Python 3 para validar o commit." >&2
+  exit 1
+fi
+"$PY" -I "$ROOT/.githooks/check_site.py" || {
+  echo "pre-commit: verificacao do site falhou; commit abortado." >&2
+  exit 1
+}
