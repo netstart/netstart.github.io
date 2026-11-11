@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Termos de Serviço · Terms of Service — Hyakki</title>
+<meta name="description" content="Termos de serviço do jogo Hyakki: Até o Amanhecer para Android. Terms of service of the Android game Hyakki: Until Dawn.">
+<meta name="color-scheme" content="dark">
+<meta name="theme-color" content="#0d1020">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='5' y='1' width='6' height='2' fill='%23c9a45c'/%3E%3Crect x='4' y='3' width='8' height='10' rx='2' fill='%23e8613a'/%3E%3Crect x='6' y='5' width='4' height='6' fill='%23ffd27a'/%3E%3Crect x='5' y='13' width='6' height='2' fill='%23c9a45c'/%3E%3C/svg%3E">
+<style>
+  :root {
+    --night: #0d1020;
+    --night-2: #151a30;
+    --card: #1b2140;
+    --line: #2e3660;
+    --text: #ece6d6;
+    --muted: #b8b2c8;
+    --lantern: #ffb347;
+    --ember: #e8613a;
+    --gold: #e6c27a;
+    --link: #ffd27a;
+    --focus: #7fd1ff;
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+  @media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } }
+  body {
+    margin: 0;
+    background: var(--night);
+    background-image:
+      radial-gradient(ellipse 60% 40% at 50% 0%, rgba(255, 179, 71, 0.16), transparent 70%),
+      radial-gradient(ellipse 80% 60% at 50% 100%, rgba(232, 97, 58, 0.08), transparent 70%);
+    background-attachment: fixed;
+    color: var(--text);
+    font: 1.0625rem/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+  .skip {
+    position: absolute; left: 1rem; top: -4rem; z-index: 10;
+    background: var(--lantern); color: #1a1206; padding: .6rem 1rem; border-radius: .5rem;
+    font-weight: 700; text-decoration: none;
+  }
+  .skip:focus { top: 1rem; }
+  :focus-visible { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 4px; }
+  header.top {
+    max-width: 46rem; margin: 0 auto; padding: 2.5rem 1rem 1rem; text-align: center;
+  }
+  .lamp { width: 56px; height: 72px; margin: 0 auto .75rem; display: block; filter: drop-shadow(0 0 18px rgba(255, 179, 71, .55)); }
+  .kanji { font-size: .95rem; letter-spacing: .5em; color: var(--gold); margin: 0; padding-left: .5em; }
+  h1 { font-size: clamp(1.6rem, 5vw, 2.2rem); line-height: 1.2; margin: .3rem 0 .4rem; color: #fff6e2; }
+  .sub { color: var(--muted); margin: 0; }
+  nav.langs { display: flex; gap: .6rem; justify-content: center; flex-wrap: wrap; margin: 1.4rem 0 0; padding: 0; list-style: none; }
+  nav.langs a {
+    display: inline-block; min-height: 44px; padding: .55rem 1.1rem; border-radius: 999px;
+    border: 1px solid var(--line); background: var(--night-2); color: var(--text); text-decoration: none; font-weight: 600;
+  }
+  nav.langs a:hover { border-color: var(--lantern); color: var(--lantern); }
+  main { max-width: 46rem; margin: 0 auto; padding: 0 1rem 2rem; }
+  section.policy {
+    background: linear-gradient(180deg, var(--card), var(--night-2));
+    border: 1px solid var(--line); border-radius: 1rem;
+    padding: 1.4rem 1.25rem 1.6rem; margin: 1.5rem 0;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, .35);
+  }
+  @media (min-width: 40rem) { section.policy { padding: 2rem 2.25rem 2.2rem; } }
+  h2 { font-size: 1.45rem; margin: 0 0 .2rem; color: var(--lantern); }
+  .updated { color: var(--muted); font-size: .95rem; margin: 0 0 1.2rem; }
+  h3 { font-size: 1.08rem; margin: 1.6rem 0 .35rem; color: var(--gold); }
+  h3::before { content: "◆ "; color: var(--ember); font-size: .8em; }
+  p { margin: .35rem 0 .8rem; }
+  ul { margin: .3rem 0 .9rem; padding-left: 1.25rem; }
+  li { margin: .2rem 0; }
+  a { color: var(--link); text-underline-offset: 3px; overflow-wrap: anywhere; }
+  a:hover { color: #fff; }
+  code { font-family: ui-monospace, "Cascadia Mono", Consolas, monospace; font-size: .92em; background: rgba(255, 255, 255, .07); padding: .05rem .35rem; border-radius: .3rem; }
+  .callout {
+    border-left: 4px solid var(--lantern); background: rgba(255, 179, 71, .08);
+    padding: .8rem 1rem; border-radius: 0 .6rem .6rem 0; margin: .8rem 0 1rem;
+  }
+  .callout p { margin: .2rem 0; }
+  .contact { font-weight: 700; }
+  .back { display: inline-block; margin-top: 1rem; font-size: .95rem; }
+  footer { max-width: 46rem; margin: 0 auto; padding: 0 1rem 3rem; text-align: center; color: var(--muted); font-size: .9rem; }
+  footer a { color: var(--muted); }
+  @media print {
+    body { background: #fff; color: #000; }
+    section.policy { box-shadow: none; background: #fff; border-color: #999; }
+    h1, h2, h3, a { color: #000; }
+    nav.langs, .skip, .lamp { display: none; }
+  }
+</style>
+</head>
+<body>
+<a class="skip" href="#pt">Pular para o conteúdo / Skip to content</a>
+
+<header class="top" id="top">
+  <svg class="lamp" viewBox="0 0 16 20" aria-hidden="true" focusable="false" shape-rendering="crispEdges">
+    <rect x="5" y="0" width="6" height="2" fill="#c9a45c"/>
+    <rect x="7" y="2" width="2" height="1" fill="#c9a45c"/>
+    <rect x="3" y="3" width="10" height="13" rx="2" fill="#e8613a"/>
+    <rect x="3" y="6" width="10" height="1" fill="#b8452a"/>
+    <rect x="3" y="12" width="10" height="1" fill="#b8452a"/>
+    <rect x="6" y="7" width="4" height="5" fill="#ffd27a"/>
+    <rect x="7" y="8" width="2" height="3" fill="#fff6e2"/>
+    <rect x="5" y="16" width="6" height="2" fill="#c9a45c"/>
+  </svg>
+  <p class="kanji" lang="ja">百鬼</p>
+  <h1>Hyakki: Até o Amanhecer</h1>
+  <p class="sub">Termos de Serviço · <span lang="en">Terms of Service</span></p>
+  <nav aria-label="Idioma / Language">
+    <ul class="langs">
+      <li><a href="#pt" hreflang="pt-BR">Português (Brasil)</a></li>
+      <li><a href="#en" hreflang="en" lang="en">English</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+<section class="policy" id="pt" lang="pt-BR" aria-labelledby="pt-title">
+  <h2 id="pt-title">Termos de Serviço</h2>
+  <p class="updated">Última atualização: <time datetime="2026-11-11">11 de novembro de 2026</time></p>
+
+  <h3>1. Quem somos e aceitação</h3>
+  <p><em>Hyakki: Até o Amanhecer</em> (pacote Android <code>io.github.netstart.hyakki</code>) é um jogo independente para Android feito por um desenvolvedor individual (GitHub: netstart). Contato: <a class="contact" href="mailto:netstart@gmail.com">netstart@gmail.com</a>.</p>
+  <p>Estes termos valem para o uso do jogo. Ao instalar ou jogar, você concorda com eles. Se não concordar, não use o jogo e desinstale-o.</p>
+
+  <h3>2. Licença de uso</h3>
+  <p>Você recebe uma licença pessoal, não exclusiva, intransferível e revogável para instalar e jogar o jogo nos seus aparelhos. O jogo é distribuído pela Google Play, e os termos de serviço da Google Play também se aplicam ao download, às atualizações e às compras.</p>
+
+  <h3>3. Regras de uso</h3>
+  <p>Ao usar o jogo, você concorda em:</p>
+  <ul>
+    <li>não usá-lo para fins ilegais;</li>
+    <li>não burlar nem tentar burlar as compras ou os anúncios;</li>
+    <li>não redistribuir cópias modificadas do jogo como se fossem oficiais.</li>
+  </ul>
+
+  <h3>4. Compras no app</h3>
+  <p>O jogo é gratuito e oferece duas compras únicas (não consumíveis) opcionais: “Apoiar o jogo” e “Ampulheta de Fūjin” (velocidade 2x/3x). O pagamento é processado pelo Google Play, segundo os termos do Google; não recebemos seus dados de pagamento.</p>
+  <p>Reembolsos seguem a política de reembolso do Google Play e os direitos do consumidor aplicáveis no seu país (por exemplo, o Código de Defesa do Consumidor no Brasil e o direito de arrependimento na União Europeia, quando aplicável). Para recuperar as compras, por exemplo após reinstalar o jogo, use Opções › Restaurar compras.</p>
+
+  <h3>5. Moeda e itens virtuais</h3>
+  <p>O ryō, os desbloqueios e os demais itens virtuais do jogo existem apenas dentro do jogo. Não têm valor monetário real, não podem ser trocados por dinheiro e não podem ser transferidos para outra pessoa.</p>
+
+  <h3>6. Anúncios</h3>
+  <p>O jogo mostra apenas anúncios premiados opcionais, que você escolhe assistir em troca de uma recompensa no jogo; não há anúncio ao abrir o jogo e nenhum anúncio interrompe uma partida. Os anúncios são servidos pelo Google AdMob, e o jogo pede seu consentimento onde a lei exige. Quem fez a compra “Apoiar o jogo” recebe as recompensas sem assistir anúncio. Os detalhes sobre dados e anúncios estão na <a href="/privacy-policy.html">Política de Privacidade</a>.</p>
+
+  <h3>7. Progresso salvo</h3>
+  <p>O jogo não tem conta nem servidor: o progresso fica salvo no seu aparelho. Se o backup do Android estiver ligado, o progresso pode entrar no backup da sua própria conta Google e voltar ao reinstalar o jogo ou trocar de celular. Como não recebemos nem guardamos esses dados, não conseguimos recuperar um progresso perdido, por exemplo ao desinstalar o jogo, usar Opções › Apagar progresso ou trocar de aparelho sem backup.</p>
+
+  <h3>8. Propriedade intelectual</h3>
+  <p>O jogo e a marca <em>Hyakki: Até o Amanhecer</em> pertencem ao desenvolvedor. Os componentes de terceiros incluídos no jogo continuam sob as licenças dos seus autores, listadas em <a href="https://github.com/netstart/hyakki/blob/main/CREDITS.md">Créditos e licenças</a>. Estes termos não limitam os direitos que essas licenças dão a você.</p>
+
+  <h3>9. Atualizações e disponibilidade</h3>
+  <p>O jogo pode mudar, receber atualizações ou ser descontinuado. As compras já feitas continuam valendo enquanto o jogo estiver disponível.</p>
+
+  <h3>10. Garantias e responsabilidade</h3>
+  <p>O jogo é oferecido “como está”, sem garantia de funcionar sem erros ou sem interrupções. No limite permitido por lei, o desenvolvedor não responde por danos indiretos decorrentes do uso do jogo. Nada nestes termos retira direitos que a lei de proteção ao consumidor do seu país garante.</p>
+
+  <h3>11. Lei aplicável</h3>
+  <p>Estes termos são regidos pelas leis do Brasil, sem prejuízo das normas obrigatórias de proteção ao consumidor do país onde você mora.</p>
+
+  <h3>12. Mudanças nestes termos</h3>
+  <p>Se estes termos mudarem, a nova versão será publicada nesta página com a data atualizada.</p>
+
+  <h3>13. Contato</h3>
+  <p>Dúvidas sobre estes termos: <a href="mailto:netstart@gmail.com">netstart@gmail.com</a>.</p>
+
+  <a class="back" href="#top">↑ Voltar ao topo</a>
+</section>
+
+<section class="policy" id="en" lang="en" aria-labelledby="en-title">
+  <h2 id="en-title">Terms of Service</h2>
+  <p class="updated">Last updated: <time datetime="2026-11-11">November 11, 2026</time></p>
+
+  <h3>1. Who we are and acceptance</h3>
+  <p><em>Hyakki: Until Dawn</em> (Android package <code>io.github.netstart.hyakki</code>) is an independent Android game made by an individual developer (GitHub: netstart). Contact: <a class="contact" href="mailto:netstart@gmail.com">netstart@gmail.com</a>.</p>
+  <p>These terms apply to your use of the game. By installing or playing it, you agree to them. If you do not agree, do not use the game and uninstall it.</p>
+
+  <h3>2. License</h3>
+  <p>You get a personal, non-exclusive, non-transferable, revocable license to install and play the game on your devices. The game is distributed through Google Play, and the Google Play Terms of Service also apply to downloads, updates and purchases.</p>
+
+  <h3>3. Rules of use</h3>
+  <p>When using the game, you agree:</p>
+  <ul>
+    <li>not to use it for illegal purposes;</li>
+    <li>not to bypass or try to bypass purchases or ads;</li>
+    <li>not to redistribute modified copies of the game as if they were official.</li>
+  </ul>
+
+  <h3>4. In-app purchases</h3>
+  <p>The game is free and offers two optional one-time (non-consumable) purchases: “Support the game” and “Fūjin’s Hourglass” (2x/3x speed). Payment is processed by Google Play under Google’s terms; we do not receive your payment data.</p>
+  <p>Refunds follow the Google Play refund policy and the consumer rights that apply in your country (for example, the Consumer Defense Code in Brazil and the right of withdrawal in the European Union, where applicable). To recover your purchases, for example after reinstalling the game, use Options › Restore purchases.</p>
+
+  <h3>5. Virtual currency and items</h3>
+  <p>Ryō, unlocks and the other virtual items exist only inside the game. They have no real monetary value, cannot be exchanged for money and cannot be transferred to another person.</p>
+
+  <h3>6. Ads</h3>
+  <p>The game shows only optional rewarded ads that you choose to watch in exchange for an in-game reward; there is no ad when the game opens and no ad interrupts a run. Ads are served by Google AdMob, and the game asks for your consent where the law requires it. If you made the “Support the game” purchase, you get the rewards without watching an ad. Details about data and ads are in the <a href="/privacy-policy.html">Privacy Policy</a>.</p>
+
+  <h3>7. Saved progress</h3>
+  <p>The game has no account and no server: your progress is stored on your device. If Android backup is turned on, your progress may be included in your own Google Account backup and come back when you reinstall the game or switch phones. Since we do not receive or keep this data, we cannot recover lost progress, for example after uninstalling the game, using Options › Erase progress or switching devices without a backup.</p>
+
+  <h3>8. Intellectual property</h3>
+  <p>The game and the <em>Hyakki: Until Dawn</em> name belong to the developer. Third-party components included in the game remain under their authors’ licenses, listed in <a href="https://github.com/netstart/hyakki/blob/main/CREDITS.md">Credits &amp; licenses</a>. These terms do not limit the rights those licenses give you.</p>
+
+  <h3>9. Updates and availability</h3>
+  <p>The game may change, be updated or be discontinued. Purchases already made remain valid for as long as the game is available.</p>
+
+  <h3>10. Warranties and liability</h3>
+  <p>The game is provided “as is”, with no warranty that it will run without errors or interruptions. To the extent permitted by law, the developer is not liable for indirect damages arising from the use of the game. Nothing in these terms takes away rights that your country’s consumer protection law guarantees.</p>
+
+  <h3>11. Governing law</h3>
+  <p>These terms are governed by the laws of Brazil, without prejudice to the mandatory consumer protection rules of the country where you live.</p>
+
+  <h3>12. Changes to these terms</h3>
+  <p>If these terms change, the new version will be published on this page with an updated date.</p>
+
+  <h3>13. Contact</h3>
+  <p>Questions about these terms: <a href="mailto:netstart@gmail.com">netstart@gmail.com</a>.</p>
+
+  <a class="back" href="#top">↑ Back to top</a>
+</section>
+</main>
+
+<footer>
+  <p><a href="/hyakki/">Hyakki</a> · <a href="/privacy-policy.html">Política de Privacidade / Privacy Policy</a> · <a href="https://netstart.github.io/">Arquivo de licenças / License archive</a> · <a href="mailto:netstart@gmail.com">netstart@gmail.com</a></p>
+</footer>
+</body>
+</html>
