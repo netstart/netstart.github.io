@@ -10,7 +10,7 @@
 > data). Revise a seção "Anúncios" se mudar a rede de anúncios, o SDK ou se passar a haver servidor
 > próprio. O guia de publicação continua em `docs/store/play-console-guia.md` do hyakki.
 
-Última atualização: 29 de outubro de 2026
+Última atualização: 13 de novembro de 2026
 
 ## Português (Brasil)
 
@@ -51,7 +51,7 @@ Android. O jogo só solicita anúncios quando há conexão com a internet. Como 
 <https://policies.google.com/privacy> e
 <https://policies.google.com/technologies/partner-sites>.
 
-**Compras.** As compras únicas (não consumíveis) "Apoiar o jogo" e "Ampulheta de Fūjin" (velocidade 2x/3x) são processadas pelo Google
+**Compras.** As compras únicas (não consumíveis) "Apoiar o jogo", "Ampulheta de Fūjin" (velocidade 2x/3x) e a liberação de guardiões (Kuroe, Kurogoromo, o pacote "Noite da Queda" com os dois e os guardiões das fases, que também chegam de graça ao vencer a fase) são processadas pelo Google
 Play, segundo os termos e a política de privacidade do Google. Não recebemos seu nome, e-mail nem
 dados de pagamento; o jogo só confere as compras no próprio aparelho, sem servidor próprio, e guarda
 no aparelho apenas se cada uma foi feita. Para recuperar as compras (por exemplo, após reinstalar o jogo),
@@ -114,7 +114,7 @@ choice in Options › Privacy and ads, and reset or delete the advertising ID in
 The game only requests ads when an internet connection is available. How Google uses this data: <https://policies.google.com/privacy> and
 <https://policies.google.com/technologies/partner-sites>.
 
-**Purchases.** The one-time (non-consumable) purchases "Support the game" and "Fūjin's Hourglass" (2x/3x speed) are processed by Google
+**Purchases.** The one-time (non-consumable) purchases "Support the game", "Fūjin's Hourglass" (2x/3x speed) and guardian unlocks (Kuroe, Kurogoromo, the "Night of the Fall" bundle with both, and the stage guardians, who also join for free when their stage is cleared) are processed by Google
 Play under Google's terms and privacy policy. We do not receive your name, email or payment data; the
 game checks the purchases only on the device, with no server of our own, and stores on the device only
 whether each one was made. To recover the purchases (for example, after reinstalling the game), use
