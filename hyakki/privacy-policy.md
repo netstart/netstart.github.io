@@ -10,7 +10,7 @@
 > data). Revise a seção "Anúncios" se mudar a rede de anúncios, o SDK ou se passar a haver servidor
 > próprio. O guia de publicação continua em `docs/store/play-console-guia.md` do hyakki.
 
-Última atualização: 13 de novembro de 2026
+Última atualização: 14 de novembro de 2026
 
 ## Português (Brasil)
 
@@ -33,7 +33,7 @@ celular; você controla isso nas configurações do aparelho. Apagar o app ou us
 progresso remove tudo do aparelho, de forma definitiva.
 
 **Permissões.** O jogo funciona sem internet. As permissões de internet e de estado da rede existem
-para os anúncios e para a compra pelo Google Play; a vibração é usada nos efeitos do
+para os anúncios, para a compra pelo Google Play e para o cooperativo na rede local; a vibração é usada nos efeitos do
 jogo e pode ser desligada em Opções. As bibliotecas do Google incluídas no app também declaram as
 permissões de ID de publicidade (`AD_ID`) e de faturamento do Google Play (`BILLING`).
 
@@ -50,6 +50,8 @@ Opções › Privacidade e anúncios e redefinir ou excluir o ID de publicidade 
 Android. O jogo só solicita anúncios quando há conexão com a internet. Como o Google usa esses dados:
 <https://policies.google.com/privacy> e
 <https://policies.google.com/technologies/partner-sites>.
+
+**Cooperativo local (Duas Lanternas).** O modo para 2 jogadores funciona só entre dois aparelhos na mesma rede local (Wi-Fi); não há partida online, servidor, busca de partidas, lista de salas nem anúncio da sala na rede. Os aparelhos se conectam diretamente (ENet sobre UDP, portas 47320 a 47329), e o aparelho que abre a sala só aceita endereços de rede privada (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 e link-local) e recusa os demais. O código de 4 números da sala vem do endereço IP local do aparelho que abre a sala; nada disso sai da rede local nem chega a nós. Durante a partida, os dois aparelhos trocam só o necessário para jogar: o estado da partida (posições, vida e afins), os comandos de controle, o nome da versão do jogo, a guardiã escolhida e os bônus de progresso dela para a partida (Santuário, Laço, Hōju e Omamori). Esses dados passam pela rede local sem criptografia própria do jogo, então jogue numa rede em que você confia. Não há chat, nome de usuário nem conta, e o outro aparelho não guarda seus dados: cada aparelho grava só o resultado e as missões no próprio progresso. O modo não pede nenhuma permissão nova além da internet e do estado da rede.
 
 **Compras.** As compras únicas (não consumíveis) "Apoiar o jogo", "Ampulheta de Fūjin" (velocidade 2x/3x) e a liberação de guardiões (Kuroe, Kurogoromo, o pacote "Noite da Queda" com os dois e os guardiões das fases, que também chegam de graça ao vencer a fase) são processadas pelo Google
 Play, segundo os termos e a política de privacidade do Google. Não recebemos seu nome, e-mail nem
@@ -97,8 +99,8 @@ own Google Account backup (Google Drive, encrypted on Android 9 or later) and co
 reinstall the game or switch phones; you control this in the device settings. Uninstalling the app
 or using Options › Erase progress removes everything from the device permanently.
 
-**Permissions.** The game works offline. The internet and network-state permissions exist for ads
-and for purchases through Google Play; vibration is used for game effects and can be
+**Permissions.** The game works offline. The internet and network-state permissions exist for ads,
+for purchases through Google Play and for local network co-op; vibration is used for game effects and can be
 turned off in Options. The Google libraries bundled with the app also declare the advertising ID
 (`AD_ID`) and Google Play billing (`BILLING`) permissions.
 
@@ -113,6 +115,8 @@ Google's consent form (UMP); if you decline, you will see non-personalized ads. 
 choice in Options › Privacy and ads, and reset or delete the advertising ID in Android settings.
 The game only requests ads when an internet connection is available. How Google uses this data: <https://policies.google.com/privacy> and
 <https://policies.google.com/technologies/partner-sites>.
+
+**Local co-op (Twin Lanterns).** The 2-player mode works only between two devices on the same local network (Wi-Fi); there is no online play, server, matchmaking, room list or room broadcast on the network. The devices connect directly (ENet over UDP, ports 47320 to 47329), and the device that opens the room only accepts private network addresses (10.0.0.0/8, 172.16.0.0/12, 192.168.0.0/16 and link-local) and refuses all others. The 4-digit room code comes from the local IP address of the device that opens the room; none of this leaves the local network or reaches us. During the run, the two devices exchange only what is needed to play: the run state (positions, health and the like), control inputs, the game version name, the chosen guardian and her progress bonuses for the run (Sanctuary, Bond, Hōju and Omamori). This data travels over the local network without the game's own encryption, so play on a network you trust. There is no chat, username or account, and the other device does not keep your data: each device saves only the result and missions to its own progress. The mode asks for no new permission beyond internet and network state.
 
 **Purchases.** The one-time (non-consumable) purchases "Support the game", "Fūjin's Hourglass" (2x/3x speed) and guardian unlocks (Kuroe, Kurogoromo, the "Night of the Fall" bundle with both, and the stage guardians, who also join for free when their stage is cleared) are processed by Google
 Play under Google's terms and privacy policy. We do not receive your name, email or payment data; the
