@@ -13,6 +13,7 @@ privacidade e o `app-ads.txt`.
 | `hyakki/privacy-policy.md` | Fonte em Markdown da política. Mantenha `.md` e `.html` com o mesmo conteúdo e a mesma data. |
 | `hyakki/index.html` | Landing do jogo Hyakki. |
 | `hyakki/privacy-policy.html`, `games/hyakki/privacy-policy.html` | URLs antigas: só redirecionam para `/privacy-policy.html`. |
+| `atlantis/privacy-policy.html` | Política de privacidade do Atlantis Ascension (PT/EN). URL na Play Console: `https://netstart.github.io/atlantis/privacy-policy.html`. Fonte: `atlantis/privacy-policy.md` (gerada no repositório ATLANTIS-ASCENSION por `tools/build_privacy_page.py`). Mantenha `.md` e `.html` iguais. |
 | `app-ads.txt` | Autorização do AdMob. Gerado pelo repositório do jogo (`tools/sync_site.py` do hyakki); não editar à mão. |
 | `.nojekyll` | Desliga o Jekyll do Pages (o site é estático e tem `.md` que não deve ser processado). |
 | `.githooks/` | Hook de pre-commit (`check_site.py`) e instaladores. |
