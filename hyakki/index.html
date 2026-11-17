@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Hyakki: Até o Amanhecer</title>
-<meta name="description" content="Hyakki: Até o Amanhecer — roguelike survivors em pixel art para Android. Sobreviva à procissão dos cem yōkai até o amanhecer.">
+<meta name="description" content="Hyakki: Até o Amanhecer — roguelike survivors em pixel art para Android e, em breve, PC na Steam. Sobreviva à procissão dos cem yōkai até o amanhecer.">
 <meta name="color-scheme" content="dark">
 <meta name="theme-color" content="#0d1020">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect x='5' y='1' width='6' height='2' fill='%23c9a45c'/%3E%3Crect x='4' y='3' width='8' height='10' rx='2' fill='%23e8613a'/%3E%3Crect x='6' y='5' width='4' height='6' fill='%23ffd27a'/%3E%3Crect x='5' y='13' width='6' height='2' fill='%23c9a45c'/%3E%3C/svg%3E">
@@ -23,6 +23,8 @@
   .links { display: flex; flex-direction: column; gap: .7rem; align-items: center; }
   .links a { display: inline-block; min-height: 44px; min-width: 16rem; padding: .7rem 1.2rem; border-radius: .75rem; border: 1px solid var(--lantern); color: var(--link); text-decoration: none; font-weight: 700; }
   .links a:hover { background: rgba(255, 179, 71, .1); color: #fff; }
+  .capa { display: block; width: 100%; max-width: 460px; height: auto; margin: 0 auto 1.4rem; border-radius: .5rem; border: 1px solid var(--line); image-rendering: pixelated; }
+  .plats { display: grid; gap: .8rem; margin: 0 0 2rem; text-align: left; } .plat { border: 1px solid var(--line); background: var(--night-2); border-radius: .75rem; padding: .8rem 1rem; } .plat h2 { font-size: 1.05rem; margin: 0 0 .3rem; color: #fff6e2; } .plat p { margin: 0 0 .4rem; } .plat p:last-child { margin: 0; } .plat .en { margin: 0 0 .4rem; font-size: .95rem; }
   .soon { color: var(--gold); font-weight: 700; margin: 0 0 1.8rem; }
   footer { color: var(--muted); font-size: .9rem; padding: 1rem 1rem 2.5rem; } footer a { color: var(--muted); }
 </style>
@@ -31,13 +33,15 @@
 <main>
   <svg class="lamp" viewBox="0 0 16 20" aria-hidden="true" focusable="false" shape-rendering="crispEdges"><rect x="5" y="0" width="6" height="2" fill="#c9a45c"/><rect x="7" y="2" width="2" height="1" fill="#c9a45c"/><rect x="3" y="3" width="10" height="13" rx="2" fill="#e8613a"/><rect x="3" y="6" width="10" height="1" fill="#b8452a"/><rect x="3" y="12" width="10" height="1" fill="#b8452a"/><rect x="6" y="7" width="4" height="5" fill="#ffd27a"/><rect x="7" y="8" width="2" height="3" fill="#fff6e2"/><rect x="5" y="16" width="6" height="2" fill="#c9a45c"/></svg>
   <p class="kanji" lang="ja">百鬼</p><h1>Hyakki: Até o Amanhecer</h1>
-  <p class="pitch">A cada cem anos, a procissão dos cem yōkai atravessa o vale. Mantenha a lanterna acesa até o sol nascer neste roguelike survivors em pixel art para Android, jogável com um dedo e offline.</p>
-  <p class="en" lang="en" style="margin-bottom:1.2rem">Hyakki: Until Dawn — a pixel-art survivors roguelike for Android. Keep your lantern lit through the night parade of a hundred yōkai.</p>
-  <ul class="facts" aria-label="Destaques"><li>8 guardiões</li><li>7 fases</li><li>48 armas</li><li>28 chefes</li><li>Android</li><li>Offline</li><li>11 idiomas</li><li>Sem conta</li><li>Progresso salvo no aparelho</li></ul>
-  <p class="pitch">Gratuito. Só anúncios premiados opcionais, e nenhum interrompe uma partida; duas compras únicas opcionais (apoio ao jogo e velocidade 2x/3x, que também sai com ryō do jogo).</p>
-  <p class="en" lang="en">Free to play. Only optional rewarded ads, none during a run; two optional one-time purchases. Coming soon to Google Play.</p>
-  <p class="soon">Em breve na Google Play.</p>
+  <img class="capa" src="hyakki_capa.png" width="920" height="430" alt="Arte do Hyakki: três guardiões com uma lanterna diante da procissão de yōkai sob a lua.">
+  <p class="pitch">A cada cem anos, a procissão dos cem yōkai atravessa o vale. Mantenha a lanterna acesa até o sol nascer neste roguelike survivors em pixel art para Android e PC, jogável com um dedo no celular ou com teclado e mouse no PC, e offline.</p>
+  <p class="en" lang="en" style="margin-bottom:1.2rem">Hyakki: Until Dawn — a pixel-art survivors roguelike for Android and PC. Keep your lantern lit through the night parade of a hundred yōkai.</p>
+  <ul class="facts" aria-label="Destaques"><li>8 guardiões</li><li>7 fases</li><li>48 armas</li><li>28 chefes</li><li>Android</li><li>PC (Steam)</li><li>Offline</li><li>11 idiomas</li><li>Sem conta</li><li>Progresso salvo no aparelho</li></ul>
+  <section class="plats" aria-label="Plataformas · Platforms">
+    <div class="plat"><h2>Android · Google Play</h2><p>Gratuito. Só anúncios premiados opcionais, e nenhum interrompe uma partida; duas compras únicas opcionais (apoio ao jogo e velocidade 2x/3x, que também sai com ryō do jogo).</p><p class="en" lang="en">Free to play. Only optional rewarded ads, none during a run; two optional one-time purchases.</p><p class="soon">Em breve na Google Play. <span lang="en">Coming soon to Google Play.</span></p></div>
+    <div class="plat"><h2>PC Windows · Steam</h2><p>Jogo pago, com tudo incluso: sem anúncios e sem compras dentro do jogo; guardiões premium, Lanterna Dourada e velocidade 2x/3x já vêm liberados.</p><p class="en" lang="en">Paid game with everything included: no ads and no in-game purchases.</p><p class="soon">Em breve na Steam. <span lang="en">Coming soon to Steam.</span></p></div>
+  </section>
   <div class="links"><a href="/privacy-policy.html">Política de Privacidade · <span lang="en">Privacy Policy</span></a><a href="/hyakki/terms-of-service.html">Termos de Serviço · <span lang="en">Terms of Service</span></a><a href="https://github.com/netstart/hyakki/blob/main/CREDITS.md">Créditos e licenças · <span lang="en">Credits &amp; licenses</span></a><a href="mailto:netstart@gmail.com">Contato · <span lang="en">Contact</span>: netstart@gmail.com</a></div>
-</main><footer><p>Jogo independente de <a href="https://github.com/netstart">netstart</a>.</p></footer>
+</main><footer><p>Jogo independente de <a href="https://github.com/netstart">netstart</a>. Arte da capa: projeto Hyakki, CC0-1.0.</p></footer>
 </body>
 </html>
