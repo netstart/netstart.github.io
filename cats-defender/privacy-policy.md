@@ -1,8 +1,8 @@
 # Política de privacidade — Cats vs Dogs Defender
 
-*Versão 1.1 · 24/11/2026 · English version below.*
+*Versão 1.2 · 26/11/2026 · English version below.*
 
-Última atualização: 24 de novembro de 2026
+Última atualização: 26 de novembro de 2026
 
 ## Português (Brasil)
 
@@ -13,7 +13,8 @@
 O jogo é para **todas as idades**. Ele só mostra anúncios em **vídeos opcionais**, quando você toca num botão para
 ganhar uma recompensa; nenhum anúncio interrompe o jogo. Os anúncios são do Google AdMob, **marcados como
 direcionados a crianças**: sem anúncios personalizados e só com conteúdo de classificação **G** (livre).
-**Não há compras dentro do jogo** e nada é vendido com dinheiro real.
+O jogo inteiro é grátis. Há **uma compra opcional**, o **Turbo 3x e 4x** (velocidades extras), feita pela
+Google Play e protegida por uma pergunta para um adulto antes de abrir o pagamento.
 
 **O que o jogo guarda no seu aparelho.** Progresso (fases, estrelas, moedas do jogo, gatos, melhorias, conquistas),
 opções (idioma, volume, tamanho do texto), o prêmio diário e as missões do dia, o controle dos vídeos (quantos foram
@@ -34,9 +35,16 @@ relatórios agregados de receita. Detalhes em
 [Como o Google usa dados de sites e apps parceiros](https://policies.google.com/technologies/partner-sites)
 e na [Política de Privacidade do Google](https://policies.google.com/privacy).
 
+**Compra opcional (Google Play, só Android).** O Turbo 3x e 4x é uma compra única feita pelo sistema de pagamentos
+da Google Play. Antes de abrir o pagamento, o jogo mostra uma pergunta de matemática para um adulto responder. O
+pagamento, o cartão e os dados da conta Google ficam com a Google; nós não vemos nem guardamos esses dados. O jogo
+só recebe da Google Play a confirmação de que a compra existe, para liberar as velocidades e restaurá-las se o jogo
+for reinstalado. Recebemos da Google só relatórios de vendas. Detalhes na
+[Política de Privacidade do Google](https://policies.google.com/privacy).
+
 **O que o jogo NÃO coleta.** Nome, e-mail, contatos, localização precisa, fotos, microfone, câmera ou ID de
-publicidade. As únicas permissões pedidas no Android são a internet (só para os anúncios) e a vibração (retorno
-tátil).
+publicidade. As permissões pedidas no Android são a internet (anúncios e a compra), a vibração (retorno tátil) e a de
+compras da Google Play (`BILLING`), usada só quando alguém escolhe comprar o Turbo.
 
 **Crianças.** O jogo é feito para todas as idades, inclusive crianças. Nós não coletamos dados de ninguém, e os
 anúncios seguem as regras para crianças descritas acima. Pais e responsáveis podem desligar a internet do aparelho:
@@ -47,7 +55,8 @@ tudo o que o jogo guardou, desinstale o jogo ou limpe os dados do app nas config
 dos anúncios, use os controles do Google em [Minha Central de Anúncios](https://myadcenter.google.com). Dúvidas:
 [netstart@gmail.com](mailto:netstart@gmail.com).
 
-**Mudanças.** Mudanças nesta política são publicadas neste endereço, com nova data e versão. Versão 1.1: o anúncio
+**Mudanças.** Mudanças nesta política são publicadas neste endereço, com nova data e versão. Versão 1.2: entrou a compra opcional do Turbo 3x e 4x pela Google Play, com pergunta
+para um adulto. Versão 1.1: o anúncio
 ao abrir o jogo foi retirado, os vídeos opcionais passaram a incluir "dobrar moedas" (até 8 por dia no total), o
 ID de publicidade deixou de ser usado e o e-mail de contato passou a constar aqui.
 
@@ -59,8 +68,8 @@ ID de publicidade deixou de ser usado e o e-mail de contato passou a constar aqu
 **Summary.** The game works offline, with no account, no login and no server of ours. We receive none of your
 data. The game is for **all ages**. It only shows ads as **optional videos**, when you tap a button to earn a
 reward; no ad interrupts play. The ads come from Google AdMob, **tagged as child-directed**: no personalized ads,
-and only content rated **G** (general audiences). **There are no in-app purchases** and nothing is sold for real
-money.
+and only content rated **G** (general audiences). The whole game is free. There is **one optional purchase**, the **3x & 4x Turbo** (extra speeds), made
+through Google Play and protected by a question for a grown-up before the payment opens.
 
 **What the game stores on your device.** Progress (levels, stars, in-game coins, cats, upgrades, achievements),
 options (language, volume, text size), the daily reward and today's missions, video bookkeeping (how many were
@@ -80,9 +89,16 @@ see or store this data; we only receive aggregated revenue reports from Google. 
 [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites)
 and the [Google Privacy Policy](https://policies.google.com/privacy).
 
+**Optional purchase (Google Play, Android only).** The 3x & 4x Turbo is a one-time purchase made through Google
+Play's payment system. Before the payment opens, the game shows a math question for a grown-up to answer. The
+payment, the card and the Google account data stay with Google; we do not see or store this data. The game only
+receives from Google Play the confirmation that the purchase exists, to unlock the speeds and restore them if the
+game is reinstalled. We only receive sales reports from Google. Details in the
+[Google Privacy Policy](https://policies.google.com/privacy).
+
 **What the game does NOT collect.** Name, e-mail, contacts, precise location, photos, microphone, camera or the
-advertising ID. The only Android permissions requested are internet (only for the ads) and vibration (haptic
-feedback).
+advertising ID. The Android permissions requested are internet (ads and the purchase), vibration (haptic feedback) and Google Play's
+purchase permission (`BILLING`), used only when someone chooses to buy the Turbo.
 
 **Children.** The game is made for all ages, children included. We collect no data from anyone, and the ads follow
 the child rules described above. Parents can turn off the device's internet: the whole game keeps working, just
@@ -93,6 +109,7 @@ everything the game stored, uninstall it or clear the app's data in Android sett
 controls at [My Ad Center](https://myadcenter.google.com). Questions:
 [netstart@gmail.com](mailto:netstart@gmail.com).
 
-**Changes.** Changes to this policy are published at this address with a new date and version. Version 1.1: the ad
+**Changes.** Changes to this policy are published at this address with a new date and version. Version 1.2: added the optional 3x & 4x Turbo purchase through Google Play, with a
+question for a grown-up. Version 1.1: the ad
 shown when the game opened was removed, the optional videos now include "double coins" (up to 8 a day in total),
 the advertising ID is no longer used and the contact e-mail is now listed here.
