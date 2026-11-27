@@ -20,24 +20,25 @@ ul { margin: 0 0 14px; padding-left: 22px; }
 <body>
 <main>
 <h1>Política de privacidade — BeatTrack</h1>
-<p><em>Versão 1.0 · 27/11/2026 · English version below.</em></p>
+<p><em>Versão 1.1 · 27/11/2026 · English version below.</em></p>
 <section id="pt" lang="pt-BR">
 <h2>Português (Brasil)</h2>
 <p><em>Última atualização: <time datetime="2026-11-27">27 de novembro de 2026</time></em></p>
-<p><strong>Quem somos.</strong> BeatTrack é um player de música independente, que ajusta o BPM das músicas e separa os elementos delas (voz, bateria, baixo e outros). Ele é publicado por Clayton K. N. Passos ("nós"). Contato: pelo e-mail informado na página do app na Google Play.</p>
+<p><strong>Quem somos.</strong> BeatTrack é um player de música independente, que ajusta o BPM das músicas e separa os elementos delas (voz, bateria, baixo e outros). Ele é publicado por Clayton K. N. Passos ("nós"), pessoa física no Brasil. Para a LGPD (Lei 13.709/2018) e o GDPR (Regulamento UE 2016/679), somos o controlador dos tratamentos descritos aqui. Contato, inclusive para exercer seus direitos: o e-mail informado na página do app na Google Play.</p>
+<p>Como agente de tratamento de pequeno porte (Resolução CD/ANPD nº 2/2022), não nomeamos encarregado (DPO); o canal acima cumpre esse papel.</p>
 <p><strong>Resumo.</strong> O app funciona sem conta, sem login e sem servidor nosso. Nós não recebemos nenhum dado seu. Suas músicas nunca saem do aparelho. O app é grátis e se mantém com anúncios do Google AdMob. O app é indicado para maiores de 13 anos.</p>
 <p><strong>Suas músicas.</strong> O app lê os arquivos de áudio do aparelho (permissão <code>READ_MEDIA_AUDIO</code>; <code>READ_EXTERNAL_STORAGE</code> até o Android 12) para listar, tocar, medir o BPM e separar os elementos. Tudo isso roda <strong>no próprio aparelho</strong>: nenhum áudio é enviado para nós nem para ninguém.</p>
-<p><strong>O que o app guarda no aparelho.</strong> Ficam <strong>só no seu aparelho</strong>:</p>
+<p><strong>O que o app guarda no aparelho.</strong> Ficam <strong>só no seu aparelho</strong>, até você apagar os dados do app ou desinstalá-lo:</p>
 <ul>
 <li>o modo de ordenação da lista e a sua ordem manual;</li>
-<li>os elementos separados das últimas 3 músicas (cache);</li>
+<li>os elementos separados das últimas 3 músicas (cache, substituído automaticamente);</li>
 <li>o modelo de separação, quando você o baixa.</li>
 </ul>
 <p>Nada disso identifica você nem é enviado a ninguém.</p>
 <p><strong>Internet.</strong> O app usa a internet só para:</p>
 <ul>
 <li><strong>os anúncios</strong> (veja abaixo);</li>
-<li><strong>baixar o modelo de separação</strong>, cerca de 300 MB, e só quando você pede. O download vem do Hugging Face (<a href="https://huggingface.co">https://huggingface.co</a>), que, como qualquer site, recebe o endereço IP do aparelho.</li>
+<li><strong>baixar o modelo de separação</strong>, cerca de 300 MB, e só quando você pede. O download vem do Hugging Face (<a href="https://huggingface.co">https://huggingface.co</a>), que, como qualquer site, recebe o endereço IP do aparelho e o trata conforme a política dele (<a href="https://huggingface.co/privacy">https://huggingface.co/privacy</a>).</li>
 </ul>
 <p><strong>Anúncios.</strong> O app mostra um banner do Google AdMob na parte de baixo da tela. Não há anúncio de tela cheia nem anúncio que interrompa a música.</p>
 <p>O SDK do Google Mobile Ads, operado pelo Google, pode coletar e compartilhar com o Google, de forma criptografada (TLS):</p>
@@ -48,41 +49,55 @@ ul { margin: 0 0 14px; padding-left: 22px; }
 <li>interações com os anúncios (exibições e toques);</li>
 <li>dados de diagnóstico.</li>
 </ul>
-<p>O Google usa esses dados para mostrar e medir os anúncios e evitar fraude.</p>
-<p>Onde a lei exige (por exemplo, no Espaço Econômico Europeu, no Reino Unido, na Suíça e em alguns estados dos EUA), o app mostra o formulário de consentimento do Google (UMP). Se você recusar, verá anúncios não personalizados. Você pode rever a escolha no menu › Privacidade dos anúncios, e redefinir ou excluir o ID de publicidade nas configurações do Android. Como o Google usa esses dados: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> e <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</p>
-<p><strong>O que o app NÃO coleta.</strong> Nós não coletamos nome, e-mail, contatos, localização precisa, fotos, microfone nem câmera. Não há compras dentro do app.</p>
+<p>O Google usa esses dados para mostrar e medir os anúncios e evitar fraude. Para esses dados, o Google atua como controlador independente; nós não recebemos nem guardamos esses dados. Os anúncios personalizados usam perfis automatizados do Google, que não produzem nenhuma decisão com efeito jurídico sobre você.</p>
+<p>Onde a lei exige (por exemplo, no Espaço Econômico Europeu, no Reino Unido, na Suíça e em alguns estados dos EUA), o app mostra o formulário de consentimento do Google (UMP) antes de pedir anúncios, com a opção de não consentir. Se você recusar, verá só anúncios não personalizados. Você pode rever a escolha a qualquer momento no menu › Privacidade dos anúncios, e redefinir ou excluir o ID de publicidade nas configurações do Android. Como o Google usa esses dados: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> e <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</p>
+<p><strong>Bases legais.</strong></p>
+<ul>
+<li><strong>Download do modelo:</strong> execução do recurso que você pediu (LGPD art. 7º, V; GDPR art. 6(1)(b)).</li>
+<li><strong>Anúncios personalizados e acesso a identificadores do aparelho, onde a lei exige:</strong> seu consentimento (LGPD art. 7º, I; GDPR art. 6(1)(a) e art. 5(3) da Diretiva ePrivacy), que pode ser retirado a qualquer momento pelo menu › Privacidade dos anúncios, sem afetar o que já foi feito antes.</li>
+<li><strong>Anúncios não personalizados, medição e prevenção de fraude:</strong> legítimo interesse em manter o app gratuito e seguro (LGPD art. 7º, IX; GDPR art. 6(1)(f)), ou consentimento onde a lei o exigir.</li>
+</ul>
+<p><strong>Transferência internacional.</strong> O Google e o Hugging Face podem tratar dados em servidores fora do seu país, inclusive nos EUA. O Google adota cláusulas contratuais padrão e o EU-U.S. Data Privacy Framework (<a href="https://business.safety.google/adsprocessorterms/">https://business.safety.google/adsprocessorterms/</a>), salvaguardas aceitas pela LGPD (art. 33) e pelo GDPR (capítulo V).</p>
+<p><strong>Retenção.</strong> O que fica no aparelho permanece até você limpar os dados do app ou desinstalá-lo. Os dados de anúncio ficam com o Google pelos prazos da política dele (<a href="https://policies.google.com/technologies/retention">https://policies.google.com/technologies/retention</a>).</p>
+<p><strong>Segurança.</strong> Não temos servidor nem banco de dados com informações suas. Toda comunicação do app com o Google e o Hugging Face é criptografada (HTTPS/TLS).</p>
+<p><strong>O que o app NÃO coleta.</strong> Nós não coletamos nome, e-mail, contatos, localização precisa, fotos, microfone, câmera nem dados sensíveis. Não há compras dentro do app.</p>
 <p>As permissões do Android são:</p>
 <ul>
 <li>leitura de áudio (<code>READ_MEDIA_AUDIO</code> / <code>READ_EXTERNAL_STORAGE</code>);</li>
 <li>internet e estado da rede (anúncios e download do modelo);</li>
 <li>ID de publicidade (<code>AD_ID</code>, usado pelo SDK do Google Mobile Ads).</li>
 </ul>
-<p><strong>Crianças.</strong> O app é para maiores de 13 anos e não faz parte do programa Famílias da Google Play. Nós não coletamos dados de ninguém; os dados de anúncio vão direto para o Google, como descrito acima.</p>
-<p><strong>Seus direitos (LGPD/GDPR).</strong> Nós não temos dados pessoais seus para acessar, corrigir ou apagar.</p>
+<p><strong>Crianças e adolescentes.</strong> O app é para maiores de 13 anos, não é direcionado a crianças e não faz parte do programa Famílias da Google Play. Não coletamos dados de ninguém, inclusive de menores de 13 anos (COPPA, nos EUA). Se você está abaixo da idade de consentimento digital do seu país (entre 13 e 16 anos na União Europeia), peça a um responsável para fazer a escolha do formulário de anúncios, ou escolha não consentir. Para adolescentes no Brasil, o tratamento segue o melhor interesse deles (LGPD art. 14).</p>
+<p><strong>Seus direitos.</strong> Pela LGPD (art. 18) você pode pedir: confirmação de que há tratamento, acesso, correção, anonimização, bloqueio ou eliminação, portabilidade, informação sobre com quem os dados são compartilhados, informação sobre a possibilidade de não consentir e as consequências disso, revogação do consentimento e oposição. Pelo GDPR (arts. 15 a 22) você tem direitos equivalentes: acesso, retificação, apagamento, limitação, portabilidade, oposição e retirada do consentimento.</p>
+<p>Como nós não guardamos dados pessoais seus, a maioria desses direitos se exerce direto nos controles abaixo:</p>
 <ul>
-<li><strong>O que o app guardou:</strong> desinstale o app ou limpe os dados dele nas configurações do Android.</li>
-<li><strong>Dados de anúncio:</strong> use o menu › Privacidade dos anúncios, as opções de ID de publicidade do Android ou os controles da sua Conta Google.</li>
+<li><strong>O que o app guardou:</strong> limpe os dados do app ou desinstale-o nas configurações do Android.</li>
+<li><strong>Consentimento de anúncios:</strong> menu › Privacidade dos anúncios.</li>
+<li><strong>ID de publicidade:</strong> configurações do Android › Privacidade › Anúncios (redefinir ou excluir).</li>
+<li><strong>Dados com o Google:</strong> <a href="https://myadcenter.google.com">https://myadcenter.google.com</a> e <a href="https://myaccount.google.com">https://myaccount.google.com</a>.</li>
 </ul>
-<p>Dúvidas: fale conosco pelo contato da página da loja.</p>
-<p><strong>Mudanças.</strong> Mudanças nesta política são publicadas neste endereço, com nova data e versão.</p>
+<p>Se preferir, escreva para o contato da página da loja: respondemos em até 15 dias (LGPD art. 19) ou um mês (GDPR art. 12). Você também pode reclamar à ANPD (<a href="https://www.gov.br/anpd">https://www.gov.br/anpd</a>) ou à autoridade de proteção de dados do seu país (no Espaço Econômico Europeu: <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en">https://edpb.europa.eu/about-edpb/about-edpb/members_en</a>; no Reino Unido: <a href="https://ico.org.uk">https://ico.org.uk</a>).</p>
+<p><strong>Residentes nos EUA (Califórnia e outros estados).</strong> Nos últimos 12 meses, as únicas categorias de dados pessoais envolvidas foram identificadores (ID de publicidade, IP), atividade de internet (interações com anúncios) e geolocalização aproximada, recebidas pelo Google pelo SDK de anúncios. Nós não vendemos dados por dinheiro, mas o uso desses identificadores para publicidade comportamental pode ser considerado "venda" ou "compartilhamento" pela CCPA/CPRA e leis semelhantes. Para recusar, use o menu › Privacidade dos anúncios ("Don't sell or share my data") ou exclua o ID de publicidade. Não coletamos dados sensíveis e não tratamos de forma diferente quem exerce esses direitos.</p>
+<p><strong>Mudanças.</strong> Mudanças nesta política são publicadas neste endereço, com nova data e versão. Se uma mudança exigir novo consentimento, o app vai pedi-lo.</p>
 </section>
 <section id="en" lang="en">
 <h2>English</h2>
 <p><em>Last updated: <time datetime="2026-11-27">November 27, 2026</time></em></p>
-<p><strong>Who we are.</strong> BeatTrack is an independent music player that changes a song's BPM and separates its parts (vocals, drums, bass and other). It is published by Clayton K. N. Passos ("we"). Contact: the e-mail shown on the app's Google Play page.</p>
+<p><strong>Who we are.</strong> BeatTrack is an independent music player that changes a song's BPM and separates its parts (vocals, drums, bass and other). It is published by Clayton K. N. Passos ("we"), an individual in Brazil. Under the GDPR (EU Regulation 2016/679) and Brazil's LGPD (Law 13,709/2018), we are the controller of the processing described here. Contact, including to exercise your rights: the e-mail shown on the app's Google Play page.</p>
+<p>As a small-scale processing agent (ANPD Resolution 2/2022), we have not appointed a data protection officer; the contact above serves that role.</p>
 <p><strong>Summary.</strong> The app works with no account, no login and no server of ours. We receive none of your data. Your music never leaves your device. The app is free and is funded by Google AdMob ads. The app is meant for ages 13 and up.</p>
 <p><strong>Your music.</strong> The app reads the audio files on your device (permission <code>READ_MEDIA_AUDIO</code>; <code>READ_EXTERNAL_STORAGE</code> up to Android 12) to list, play, measure the BPM and separate the parts. All of this runs <strong>on the device itself</strong>: no audio is sent to us or to anyone.</p>
-<p><strong>What the app stores on your device.</strong> These stay <strong>only on your device</strong>:</p>
+<p><strong>What the app stores on your device.</strong> These stay <strong>only on your device</strong>, until you clear the app's data or uninstall it:</p>
 <ul>
 <li>the list's sort mode and your manual order;</li>
-<li>the separated parts of the last 3 songs (cache);</li>
+<li>the separated parts of the last 3 songs (cache, replaced automatically);</li>
 <li>the separation model, once you download it.</li>
 </ul>
 <p>None of it identifies you or is sent to anyone.</p>
 <p><strong>Internet.</strong> The app uses the internet only for:</p>
 <ul>
 <li><strong>ads</strong> (see below);</li>
-<li><strong>downloading the separation model</strong>, about 300 MB, and only when you ask for it. The download comes from Hugging Face (<a href="https://huggingface.co">https://huggingface.co</a>), which, like any website, receives the device's IP address.</li>
+<li><strong>downloading the separation model</strong>, about 300 MB, and only when you ask for it. The download comes from Hugging Face (<a href="https://huggingface.co">https://huggingface.co</a>), which, like any website, receives the device's IP address and handles it under its own policy (<a href="https://huggingface.co/privacy">https://huggingface.co/privacy</a>).</li>
 </ul>
 <p><strong>Ads.</strong> The app shows a Google AdMob banner at the bottom of the screen. There are no full-screen ads and no ads that interrupt the music.</p>
 <p>The Google Mobile Ads SDK, operated by Google, may collect and share with Google, encrypted in transit (TLS):</p>
@@ -93,23 +108,36 @@ ul { margin: 0 0 14px; padding-left: 22px; }
 <li>ad interactions (impressions and taps);</li>
 <li>diagnostics.</li>
 </ul>
-<p>Google uses this data to show and measure ads and to prevent fraud.</p>
-<p>Where the law requires it (for example in the European Economic Area, the UK, Switzerland and some US states), the app shows Google's consent form (UMP). If you decline, you will see non-personalized ads. You can review your choice in the menu › Ad privacy, and reset or delete the advertising ID in Android settings. How Google uses this data: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> and <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</p>
-<p><strong>What the app does NOT collect.</strong> We do not collect name, e-mail, contacts, precise location, photos, microphone or camera. There are no in-app purchases.</p>
+<p>Google uses this data to show and measure ads and to prevent fraud. For this data, Google acts as an independent controller; we do not receive or store it. Personalized ads use Google's automated profiles, which make no decision with legal effects on you.</p>
+<p>Where the law requires it (for example in the European Economic Area, the UK, Switzerland and some US states), the app shows Google's consent form (UMP) before requesting ads, including the option not to consent. If you decline, you will only see non-personalized ads. You can review your choice at any time in the menu › Ad privacy, and reset or delete the advertising ID in Android settings. How Google uses this data: <a href="https://policies.google.com/privacy">https://policies.google.com/privacy</a> and <a href="https://policies.google.com/technologies/partner-sites">https://policies.google.com/technologies/partner-sites</a>.</p>
+<p><strong>Legal bases.</strong></p>
+<ul>
+<li><strong>Model download:</strong> performing the feature you asked for (GDPR art. 6(1)(b); LGPD art. 7, V).</li>
+<li><strong>Personalized ads and access to device identifiers, where the law requires it:</strong> your consent (GDPR art. 6(1)(a) and art. 5(3) of the ePrivacy Directive; LGPD art. 7, I), which you can withdraw at any time in the menu › Ad privacy, without affecting what was done before.</li>
+<li><strong>Non-personalized ads, measurement and fraud prevention:</strong> legitimate interest in keeping the app free and secure (GDPR art. 6(1)(f); LGPD art. 7, IX), or consent where the law requires it.</li>
+</ul>
+<p><strong>International transfers.</strong> Google and Hugging Face may process data on servers outside your country, including in the US. Google relies on standard contractual clauses and the EU-U.S. Data Privacy Framework (<a href="https://business.safety.google/adsprocessorterms/">https://business.safety.google/adsprocessorterms/</a>), safeguards recognized by the GDPR (chapter V) and the LGPD (art. 33).</p>
+<p><strong>Retention.</strong> What stays on the device remains until you clear the app's data or uninstall it. Ad data is kept by Google for the periods in its policy (<a href="https://policies.google.com/technologies/retention">https://policies.google.com/technologies/retention</a>).</p>
+<p><strong>Security.</strong> We have no server or database holding your information. All of the app's traffic with Google and Hugging Face is encrypted (HTTPS/TLS).</p>
+<p><strong>What the app does NOT collect.</strong> We do not collect name, e-mail, contacts, precise location, photos, microphone, camera or any sensitive data. There are no in-app purchases.</p>
 <p>The Android permissions are:</p>
 <ul>
 <li>audio read access (<code>READ_MEDIA_AUDIO</code> / <code>READ_EXTERNAL_STORAGE</code>);</li>
 <li>internet and network state (ads and the model download);</li>
 <li>advertising ID (<code>AD_ID</code>, used by the Google Mobile Ads SDK).</li>
 </ul>
-<p><strong>Children.</strong> The app is for ages 13 and up and is not part of Google Play's Families program. We collect no data from anyone; ad data goes straight to Google, as described above.</p>
-<p><strong>Your rights (GDPR/LGPD).</strong> We hold no personal data about you to access, correct or erase.</p>
+<p><strong>Children and teens.</strong> The app is for ages 13 and up, is not directed to children and is not part of Google Play's Families program. We collect no data from anyone, including children under 13 (COPPA, in the US). If you are below your country's age of digital consent (between 13 and 16 in the EU), ask a parent or guardian to make the choice in the ads consent form, or choose not to consent. For teens in Brazil, processing follows their best interest (LGPD art. 14).</p>
+<p><strong>Your rights.</strong> Under the GDPR (arts. 15 to 22) you have the right of access, rectification, erasure, restriction, portability, objection and withdrawal of consent. The LGPD (art. 18) gives equivalent rights: confirmation of processing, access, correction, anonymization, blocking or deletion, portability, information on who the data is shared with, information on the option not to consent and its consequences, withdrawal of consent and objection.</p>
+<p>Since we hold no personal data about you, most of these rights are exercised directly with the controls below:</p>
 <ul>
-<li><strong>What the app stored:</strong> uninstall the app or clear its data in Android settings.</li>
-<li><strong>Ad data:</strong> use the menu › Ad privacy, Android's advertising ID options or your Google Account controls.</li>
+<li><strong>What the app stored:</strong> clear the app's data or uninstall it in Android settings.</li>
+<li><strong>Ad consent:</strong> menu › Ad privacy.</li>
+<li><strong>Advertising ID:</strong> Android settings › Privacy › Ads (reset or delete).</li>
+<li><strong>Data held by Google:</strong> <a href="https://myadcenter.google.com">https://myadcenter.google.com</a> and <a href="https://myaccount.google.com">https://myaccount.google.com</a>.</li>
 </ul>
-<p>Questions: use the contact on the store page.</p>
-<p><strong>Changes.</strong> Changes to this policy are published at this address with a new date and version.</p>
+<p>You can also write to the contact on the store page: we reply within one month (GDPR art. 12) or 15 days (LGPD art. 19). You may also complain to your data protection authority (in the European Economic Area: <a href="https://edpb.europa.eu/about-edpb/about-edpb/members_en">https://edpb.europa.eu/about-edpb/about-edpb/members_en</a>; in the UK: <a href="https://ico.org.uk">https://ico.org.uk</a>; in Brazil: <a href="https://www.gov.br/anpd">https://www.gov.br/anpd</a>).</p>
+<p><strong>US residents (California and other states).</strong> In the last 12 months, the only categories of personal information involved were identifiers (advertising ID, IP address), internet activity (ad interactions) and approximate geolocation, received by Google through the ads SDK. We do not sell data for money, but using these identifiers for cross-context behavioral advertising may count as a "sale" or "sharing" under the CCPA/CPRA and similar laws. To opt out, use the menu › Ad privacy ("Don't sell or share my data") or delete the advertising ID. We collect no sensitive personal information and do not discriminate against anyone who exercises these rights.</p>
+<p><strong>Changes.</strong> Changes to this policy are published at this address with a new date and version. If a change requires new consent, the app will ask for it.</p>
 </section>
 </main>
 </body>
