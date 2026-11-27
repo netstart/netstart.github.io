@@ -1,8 +1,8 @@
 # Política de privacidade — Cats vs Dogs Defender
 
-*Versão 1.2 · 26/11/2026 · English version below.*
+*Versão 1.3 · 27/11/2026 · English version below.*
 
-Última atualização: 26 de novembro de 2026
+Última atualização: 27 de novembro de 2026
 
 ## Português (Brasil)
 
@@ -50,10 +50,28 @@ compras da Google Play (`BILLING`), usada só quando alguém escolhe comprar o T
 anúncios seguem as regras para crianças descritas acima. Pais e responsáveis podem desligar a internet do aparelho:
 o jogo continua funcionando inteiro, só sem os vídeos opcionais.
 
-**Seus direitos (LGPD/GDPR/COPPA).** Nós não temos dados pessoais seus para acessar, corrigir ou apagar. Para apagar
-tudo o que o jogo guardou, desinstale o jogo ou limpe os dados do app nas configurações do Android. Para os dados
-dos anúncios, use os controles do Google em [Minha Central de Anúncios](https://myadcenter.google.com). Dúvidas:
-[netstart@gmail.com](mailto:netstart@gmail.com).
+**Controlador e encarregado.** Para a LGPD (Lei 13.709/2018) e o GDPR (Regulamento UE 2016/679, e a versão do Reino Unido), o publicador indicado em "Quem somos", pessoa física no Brasil, é o controlador do que está descrito aqui. Como agente de tratamento de pequeno porte (Resolução CD/ANPD nº 2/2022), não nomeamos encarregado (DPO); [netstart@gmail.com](mailto:netstart@gmail.com) cumpre esse papel. Para os dados de anúncios e da compra, o Google atua como controlador independente.
+
+**Bases legais.**
+
+- Anúncios não personalizados (marcados como direcionados a crianças) e prevenção de fraude: legítimo interesse em manter o jogo gratuito e seguro (LGPD art. 7º, IX; GDPR art. 6(1)(f)), sempre no melhor interesse da criança (LGPD art. 14).
+- Compra do Turbo: execução do contrato feito por um adulto (LGPD art. 7º, V; GDPR art. 6(1)(b)).
+
+**Transferência internacional.** O Google (anúncios e compra) pode tratar dados em servidores fora do seu país, inclusive nos EUA. O Google adota cláusulas contratuais padrão e o EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), salvaguardas aceitas pela LGPD (art. 33) e pelo GDPR (capítulo V).
+
+**Retenção.** O que fica no aparelho permanece até você apagar os dados do jogo ou desinstalá-lo. Os dados com o Google seguem os prazos da política dele (<https://policies.google.com/technologies/retention>).
+
+**Seus direitos.** Pela LGPD (art. 18) você pode pedir: confirmação de que há tratamento, acesso, correção, anonimização, bloqueio ou eliminação, portabilidade, informação sobre com quem os dados são compartilhados, informação sobre a possibilidade de não consentir e as consequências disso, revogação do consentimento e oposição. Pelo GDPR (arts. 15 a 22) você tem direitos equivalentes: acesso, retificação, apagamento, limitação, portabilidade, oposição e retirada do consentimento.
+
+Como nós não guardamos dados pessoais seus, a maioria desses direitos se exerce direto nos controles abaixo:
+
+- **O que o jogo guardou:** limpe os dados do app ou desinstale-o.
+- **Anúncios:** desligue a internet do aparelho; o jogo continua inteiro, só sem os vídeos opcionais.
+- **Dados com o Google:** <https://myadcenter.google.com> e <https://myaccount.google.com>.
+
+Se preferir, escreva para [netstart@gmail.com](mailto:netstart@gmail.com): respondemos em até 15 dias (LGPD art. 19) ou um mês (GDPR art. 12). Você também pode reclamar à ANPD (<https://www.gov.br/anpd>) ou à autoridade de proteção de dados do seu país (no Espaço Econômico Europeu: <https://edpb.europa.eu/about-edpb/about-edpb/members_en>; no Reino Unido: <https://ico.org.uk>).
+
+**Residentes nos EUA (Califórnia e outros estados).** O jogo não usa o ID de publicidade e todo anúncio vai marcado como direcionado a crianças, então não há publicidade comportamental: nós não vendemos nem "compartilhamos" dados pessoais no sentido da CCPA/CPRA e leis semelhantes. Pela COPPA, o jogo é tratado como direcionado a crianças: não coletamos dados pessoais de menores de 13 anos e o SDK do Google segue as regras da COPPA para esses anúncios. Pais e responsáveis podem escrever para [netstart@gmail.com](mailto:netstart@gmail.com) com qualquer pedido.
 
 **Mudanças.** Mudanças nesta política são publicadas neste endereço, com nova data e versão. Versão 1.2: entrou a compra opcional do Turbo 3x e 4x pela Google Play, com pergunta
 para um adulto. Versão 1.1: o anúncio
@@ -104,10 +122,28 @@ purchase permission (`BILLING`), used only when someone chooses to buy the Turbo
 the child rules described above. Parents can turn off the device's internet: the whole game keeps working, just
 without the optional videos.
 
-**Your rights (GDPR/LGPD/COPPA).** We hold no personal data about you to access, correct or erase. To erase
-everything the game stored, uninstall it or clear the app's data in Android settings. For ad data, use Google's
-controls at [My Ad Center](https://myadcenter.google.com). Questions:
-[netstart@gmail.com](mailto:netstart@gmail.com).
+**Controller and data protection officer.** Under the GDPR (EU Regulation 2016/679, and its UK version) and Brazil's LGPD (Law 13,709/2018), the publisher named in "Who we are", an individual in Brazil, is the controller of what is described here. As a small-scale processing agent (ANPD Resolution 2/2022), we have not appointed a data protection officer; [netstart@gmail.com](mailto:netstart@gmail.com) serves that role. For ad and purchase data, Google acts as an independent controller.
+
+**Legal bases.**
+
+- Non-personalized ads (tagged as child-directed) and fraud prevention: legitimate interest in keeping the game free and secure (GDPR art. 6(1)(f); LGPD art. 7, IX), always in the child's best interest (LGPD art. 14).
+- The Turbo purchase: performing the contract made by an adult (GDPR art. 6(1)(b); LGPD art. 7, V).
+
+**International transfers.** Google (ads and the purchase) may process data on servers outside your country, including in the US. Google relies on standard contractual clauses and the EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), safeguards recognized by the GDPR (chapter V) and the LGPD (art. 33).
+
+**Retention.** What stays on the device remains until you clear the game's data or uninstall it. Data held by Google follows the periods in its policy (<https://policies.google.com/technologies/retention>).
+
+**Your rights.** Under the GDPR (arts. 15 to 22) you have the right of access, rectification, erasure, restriction, portability, objection and withdrawal of consent. The LGPD (art. 18) gives equivalent rights: confirmation of processing, access, correction, anonymization, blocking or deletion, portability, information on who the data is shared with, information on the option not to consent and its consequences, withdrawal of consent and objection.
+
+Since we hold no personal data about you, most of these rights are exercised directly with the controls below:
+
+- **What the game stored:** clear the app's data or uninstall it.
+- **Ads:** turn off the device's internet; the whole game keeps working, just without the optional videos.
+- **Data held by Google:** <https://myadcenter.google.com> and <https://myaccount.google.com>.
+
+You can also write to [netstart@gmail.com](mailto:netstart@gmail.com): we reply within one month (GDPR art. 12) or 15 days (LGPD art. 19). You may also complain to your data protection authority (in the European Economic Area: <https://edpb.europa.eu/about-edpb/about-edpb/members_en>; in the UK: <https://ico.org.uk>; in Brazil: <https://www.gov.br/anpd>).
+
+**US residents (California and other states).** The game does not use the advertising ID and every ad is tagged as child-directed, so there is no behavioral advertising: we do not sell or "share" personal information as defined by the CCPA/CPRA and similar laws. Under COPPA, the game is treated as child-directed: we collect no personal information from children under 13, and Google's SDK follows COPPA rules for these ads. Parents and guardians can write to [netstart@gmail.com](mailto:netstart@gmail.com) with any request.
 
 **Changes.** Changes to this policy are published at this address with a new date and version. Version 1.2: added the optional 3x & 4x Turbo purchase through Google Play, with a
 question for a grown-up. Version 1.1: the ad

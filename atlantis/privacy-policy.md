@@ -1,6 +1,6 @@
 # Política de privacidade — Atlantis Ascension
 
-*Versão 1.8 · 27/11/2026 · English version below.*
+*Versão 1.9 · 27/11/2026 · English version below.*
 
 ## Português (Brasil)
 
@@ -87,10 +87,33 @@ Play](https://play.google.com/about/play-terms/); reembolsos seguem as regras da
 
 **Crianças.** O jogo não é direcionado a menores de 13 anos.
 
-**Seus direitos (LGPD/GDPR).** Nós não temos dados pessoais seus para acessar, corrigir ou apagar. Para os dados
-dos anúncios, use as opções acima ou os controles do Google em
-[Minha Central de Anúncios](https://myadcenter.google.com). Para apagar tudo o que o jogo guardou, desinstale o
-jogo ou limpe os dados do app nas configurações do Android. Dúvidas: fale conosco pelo contato da página da loja.
+**Controlador e encarregado.** Para a LGPD (Lei 13.709/2018) e o GDPR (Regulamento UE 2016/679, e a versão do Reino Unido), o publicador indicado em "Quem somos", pessoa física no Brasil, é o controlador do que está descrito aqui. Como agente de tratamento de pequeno porte (Resolução CD/ANPD nº 2/2022), não nomeamos encarregado (DPO); o contato da página do jogo na Google Play ou na Steam cumpre esse papel. Para os dados de anúncios, de compras e do Google Play Games, o Google atua como controlador independente; na Steam, a Valve.
+
+**Bases legais.**
+
+- Anúncios personalizados e acesso a identificadores do aparelho, onde a lei exige: seu consentimento (LGPD art. 7º, I; GDPR art. 6(1)(a) e art. 5(3) da Diretiva ePrivacy), que você pode retirar a qualquer momento em Opções › Privacidade e anúncios, sem afetar o que já foi feito antes.
+- Anúncios não personalizados, medição e prevenção de fraude: legítimo interesse em manter o jogo gratuito e seguro (LGPD art. 7º, IX; GDPR art. 6(1)(f)), ou consentimento onde a lei o exigir.
+- Compras, ranking do Google Play Games e co-op em rede local: execução do contrato e do recurso que você pediu (LGPD art. 7º, V; GDPR art. 6(1)(b)).
+
+**Transferência internacional.** O Google (anúncios, compras e Google Play Games) e a Valve (Steam) podem tratar dados em servidores fora do seu país, inclusive nos EUA. O Google adota cláusulas contratuais padrão e o EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), salvaguardas aceitas pela LGPD (art. 33) e pelo GDPR (capítulo V).
+
+**Retenção.** O que fica no aparelho permanece até você apagar os dados do jogo ou desinstalá-lo. Os dados com o Google seguem os prazos da política dele (<https://policies.google.com/technologies/retention>).
+
+**Seus direitos.** Pela LGPD (art. 18) você pode pedir: confirmação de que há tratamento, acesso, correção, anonimização, bloqueio ou eliminação, portabilidade, informação sobre com quem os dados são compartilhados, informação sobre a possibilidade de não consentir e as consequências disso, revogação do consentimento e oposição. Pelo GDPR (arts. 15 a 22) você tem direitos equivalentes: acesso, retificação, apagamento, limitação, portabilidade, oposição e retirada do consentimento.
+
+Como nós não guardamos dados pessoais seus, a maioria desses direitos se exerce direto nos controles abaixo:
+
+- **O que o jogo guardou:** apague o progresso no jogo, limpe os dados do app ou desinstale-o.
+- **Consentimento de anúncios:** Opções › Privacidade e anúncios.
+- **ID de publicidade:** configurações do Android › Privacidade › Anúncios (redefinir ou excluir).
+- **Dados com o Google:** <https://myadcenter.google.com> e <https://myaccount.google.com>.
+- **Ranking e perfil do Google Play Games:** app Google Play Games › Perfil, ou <https://myaccount.google.com>.
+
+Se preferir, escreva para o contato da página do jogo na Google Play ou na Steam: respondemos em até 15 dias (LGPD art. 19) ou um mês (GDPR art. 12). Você também pode reclamar à ANPD (<https://www.gov.br/anpd>) ou à autoridade de proteção de dados do seu país (no Espaço Econômico Europeu: <https://edpb.europa.eu/about-edpb/about-edpb/members_en>; no Reino Unido: <https://ico.org.uk>).
+
+**Residentes nos EUA (Califórnia e outros estados).** Nos últimos 12 meses, as únicas categorias de dados pessoais envolvidas foram identificadores (ID de publicidade, IP), atividade de internet (interações com anúncios) e geolocalização aproximada, recebidas pelo Google pelo SDK de anúncios (e, se você entrar no Google Play Games, o nome de jogador e o placar). Nós não vendemos dados por dinheiro, mas o uso desses identificadores para publicidade comportamental pode ser considerado "venda" ou "compartilhamento" pela CCPA/CPRA e leis semelhantes. Para recusar, use Opções › Privacidade e anúncios ("Don't sell or share my data", onde o formulário do Google aparecer) ou exclua o ID de publicidade nas configurações do Android. Não coletamos dados sensíveis e não tratamos de forma diferente quem exerce esses direitos.
+
+**Adolescentes e idade de consentimento.** Se você está abaixo da idade de consentimento digital do seu país (entre 13 e 16 anos na União Europeia), peça a um responsável para fazer a escolha do formulário de anúncios, ou escolha não consentir. Não coletamos, de forma intencional, dados de menores de 13 anos (COPPA, nos EUA). Para adolescentes no Brasil, o tratamento segue o melhor interesse deles (LGPD art. 14).
 
 **Mudanças.** Mudanças nesta política são publicadas neste endereço, com nova data e versão, e avisadas na
 página do jogo.
@@ -177,9 +200,33 @@ Service](https://play.google.com/about/play-terms/); refunds follow Google Play'
 
 **Children.** The game is not directed at children under 13.
 
-**Your rights (GDPR/LGPD).** We hold no personal data about you to access, correct or erase. For ad data, use the
-options above or Google's controls at [My Ad Center](https://myadcenter.google.com). To erase everything the game
-stored, uninstall it or clear the app's data in Android settings. Questions: use the contact on the store page.
+**Controller and data protection officer.** Under the GDPR (EU Regulation 2016/679, and its UK version) and Brazil's LGPD (Law 13,709/2018), the publisher named in "Who we are", an individual in Brazil, is the controller of what is described here. As a small-scale processing agent (ANPD Resolution 2/2022), we have not appointed a data protection officer; the contact on the game's Google Play or Steam page serves that role. For ad, purchase and Google Play Games data, Google acts as an independent controller; on Steam, Valve does.
+
+**Legal bases.**
+
+- Personalized ads and access to device identifiers, where the law requires it: your consent (GDPR art. 6(1)(a) and art. 5(3) of the ePrivacy Directive; LGPD art. 7, I), which you can withdraw at any time in Options › Privacy and ads, without affecting what was done before.
+- Non-personalized ads, measurement and fraud prevention: legitimate interest in keeping the game free and secure (GDPR art. 6(1)(f); LGPD art. 7, IX), or consent where the law requires it.
+- Purchases, the Google Play Games leaderboard and local network co-op: performing the contract and the feature you asked for (GDPR art. 6(1)(b); LGPD art. 7, V).
+
+**International transfers.** Google (ads, purchases and Google Play Games) and Valve (Steam) may process data on servers outside your country, including in the US. Google relies on standard contractual clauses and the EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), safeguards recognized by the GDPR (chapter V) and the LGPD (art. 33).
+
+**Retention.** What stays on the device remains until you clear the game's data or uninstall it. Data held by Google follows the periods in its policy (<https://policies.google.com/technologies/retention>).
+
+**Your rights.** Under the GDPR (arts. 15 to 22) you have the right of access, rectification, erasure, restriction, portability, objection and withdrawal of consent. The LGPD (art. 18) gives equivalent rights: confirmation of processing, access, correction, anonymization, blocking or deletion, portability, information on who the data is shared with, information on the option not to consent and its consequences, withdrawal of consent and objection.
+
+Since we hold no personal data about you, most of these rights are exercised directly with the controls below:
+
+- **What the game stored:** erase your progress in the game, clear the app's data or uninstall it.
+- **Ad consent:** Options › Privacy and ads.
+- **Advertising ID:** Android settings › Privacy › Ads (reset or delete).
+- **Data held by Google:** <https://myadcenter.google.com> and <https://myaccount.google.com>.
+- **Google Play Games leaderboard and profile:** Google Play Games app › Profile, or <https://myaccount.google.com>.
+
+You can also write to the contact on the game's Google Play or Steam page: we reply within one month (GDPR art. 12) or 15 days (LGPD art. 19). You may also complain to your data protection authority (in the European Economic Area: <https://edpb.europa.eu/about-edpb/about-edpb/members_en>; in the UK: <https://ico.org.uk>; in Brazil: <https://www.gov.br/anpd>).
+
+**US residents (California and other states).** In the last 12 months, the only categories of personal information involved were identifiers (advertising ID, IP address), internet activity (ad interactions) and approximate geolocation, received by Google through the ads SDK (and, if you sign in to Google Play Games, the player name and score). We do not sell data for money, but using these identifiers for cross-context behavioral advertising may count as a "sale" or "sharing" under the CCPA/CPRA and similar laws. To opt out, use Options › Privacy and ads ("Don't sell or share my data", where Google's form appears) or delete the advertising ID in Android settings. We collect no sensitive personal information and do not discriminate against anyone who exercises these rights.
+
+**Teens and age of consent.** If you are below your country's age of digital consent (between 13 and 16 in the EU), ask a parent or guardian to make the choice in the ads consent form, or choose not to consent. We do not knowingly collect data from children under 13 (COPPA, in the US). For teens in Brazil, processing follows their best interest (LGPD art. 14).
 
 **Changes.** Changes to this policy are published at this address with a new date and version, and announced on
 the game's page.

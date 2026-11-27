@@ -10,7 +10,7 @@
 > data). Revise a seção "Anúncios" se mudar a rede de anúncios, o SDK ou se passar a haver servidor
 > próprio. O guia de publicação continua em `docs/store/play-console-guia.md` do hyakki.
 
-Última atualização: 25 de novembro de 2026
+Última atualização: 27 de novembro de 2026
 
 ## Português (Brasil)
 
@@ -19,8 +19,10 @@ independente para Android e para PC (Windows, vendido na Steam) feito por um des
 (GitHub: netstart), que é o controlador dos dados descritos aqui. Contato de privacidade:
 **netstart@gmail.com**.
 
-**Resumo.** O jogo não tem conta, login, chat nem conteúdo enviado por jogadores, e não pede sua
-localização, contatos, fotos, microfone ou câmera. Não temos servidor: não recebemos nenhum dado seu.
+**Resumo.** O jogo não cria uma conta própria nem tem chat ou conteúdo enviado por jogadores. No
+Android, o Google Play Games autentica o perfil do jogador para os placares; o jogo envia ao Google
+os resultados das partidas solo e mostra o nome de jogador do serviço. Não temos servidor próprio
+nem recebemos esses dados. O jogo não pede sua localização, contatos, fotos, microfone ou câmera.
 No Android, o jogo mostra apenas anúncios premiados opcionais, que você escolhe assistir; não há
 anúncio ao abrir o jogo. Nenhum anúncio interrompe uma partida. O jogo pede seu consentimento onde a
 lei exige. Na versão de PC (Steam), o jogo é pago e já vem completo: não há anúncios, ID de
@@ -38,6 +40,19 @@ progresso remove tudo do aparelho, de forma definitiva.
 para os anúncios, para a compra pelo Google Play e para o cooperativo na rede local; a vibração é usada nos efeitos do
 jogo e pode ser desligada em Opções. As bibliotecas do Google incluídas no app também declaram as
 permissões de ID de publicidade (`AD_ID`) e de faturamento do Google Play (`BILLING`).
+
+**Google Play Games (Android).** O jogo usa o Google Play Games Services para autenticar o perfil
+Google Play Games do aparelho e oferecer um ranking online separado por guardião. Quando o perfil
+está autenticado, o jogo envia ao Google, pela conexão criptografada do serviço, a pontuação da
+partida solo (abates e duração codificados em um valor), o identificador do guardião e a data do
+resultado. O ranking mostra a pontuação, a data e o nome de jogador fornecido pelo Google Play
+Games; não usamos nome real, endereço de e-mail nem lista de amigos no jogo. O Google Play Games
+trata o perfil e esses dados conforme a [Política de Privacidade do Google](https://policies.google.com/privacy)
+e as [informações de privacidade do Google Play Games](https://support.google.com/googleplay/answer/3129346?hl=pt-BR).
+O público que pode ver o perfil e os resultados depende das opções de privacidade do perfil Google
+Play Games. Você pode consultar ou excluir os dados de jogos pela tela do perfil Google Play Games
+ou pela sua Conta Google. O ranking exige internet e está disponível apenas no Android; a versão
+de PC não usa esse serviço.
 
 **Anúncios (Android).** No Android, o jogo usa o Google AdMob apenas para anúncios premiados que você escolhe
 assistir; não há anúncio ao abrir o jogo e nenhum anúncio interrompe uma partida. Cada anúncio só aparece quando você toca para assistir, em troca de uma recompensa no jogo (por exemplo, na Loja, para reviver, para dobrar o ryō ou na Bênção do Santuário, que nos Resultados dá mais uma sorte do baú, até 3 vezes por dia); não há anúncio intersticial, banner nem anúncio obrigatório. Quem fez a compra "Apoiar o jogo" recebe as recompensas sem assistir anúncio. O SDK do Google Mobile Ads, operado pelo Google,
@@ -90,13 +105,32 @@ jogo. Dados tratados pelo Google seguem os prazos e as ferramentas do Google (po
 exemplo, a redefinição do ID de publicidade e <https://myaccount.google.com>); dados da sua conta
 Steam seguem as regras e as ferramentas da Valve.
 
-**Seus direitos (LGPD e GDPR).** Você pode pedir confirmação de tratamento, acesso, correção,
-exclusão, portabilidade e informações sobre compartilhamento, e retirar o consentimento a qualquer
-momento. Como não recebemos dados, a resposta, na maioria dos casos, será que não temos dados seus;
-para os dados tratados pelo Google ou pela Valve, indicaremos as ferramentas deles. Respondemos em até 15 dias
-pelo e-mail acima. Você também pode reclamar à ANPD (Brasil) ou à autoridade de proteção de dados do
-seu país. No Android, a base legal para anúncios personalizados é o consentimento; para anúncios não
-personalizados e prevenção de fraudes, o legítimo interesse.
+**Controlador e encarregado.** Para a LGPD (Lei 13.709/2018) e o GDPR (Regulamento UE 2016/679, e a versão do Reino Unido), o publicador indicado em "Quem somos", pessoa física no Brasil, é o controlador do que está descrito aqui. Como agente de tratamento de pequeno porte (Resolução CD/ANPD nº 2/2022), não nomeamos encarregado (DPO); [netstart@gmail.com](mailto:netstart@gmail.com) cumpre esse papel. Para os dados de anúncios, de compras e do Google Play Games, o Google atua como controlador independente; na Steam, a Valve.
+
+**Bases legais.**
+
+- Anúncios personalizados e acesso a identificadores do aparelho, onde a lei exige: seu consentimento (LGPD art. 7º, I; GDPR art. 6(1)(a) e art. 5(3) da Diretiva ePrivacy), que você pode retirar a qualquer momento em Opções › Privacidade e anúncios, sem afetar o que já foi feito antes.
+- Anúncios não personalizados, medição e prevenção de fraude: legítimo interesse em manter o jogo gratuito e seguro (LGPD art. 7º, IX; GDPR art. 6(1)(f)), ou consentimento onde a lei o exigir.
+- Compras, ranking do Google Play Games e cooperativo local: execução do contrato e do recurso que você pediu (LGPD art. 7º, V; GDPR art. 6(1)(b)).
+
+**Transferência internacional.** O Google (anúncios, compras e Google Play Games) e a Valve (Steam) podem tratar dados em servidores fora do seu país, inclusive nos EUA. O Google adota cláusulas contratuais padrão e o EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), salvaguardas aceitas pela LGPD (art. 33) e pelo GDPR (capítulo V).
+
+**Seus direitos.** Pela LGPD (art. 18) você pode pedir: confirmação de que há tratamento, acesso, correção, anonimização, bloqueio ou eliminação, portabilidade, informação sobre com quem os dados são compartilhados, informação sobre a possibilidade de não consentir e as consequências disso, revogação do consentimento e oposição. Pelo GDPR (arts. 15 a 22) você tem direitos equivalentes: acesso, retificação, apagamento, limitação, portabilidade, oposição e retirada do consentimento.
+
+Como nós não guardamos dados pessoais seus, a maioria desses direitos se exerce direto nos controles abaixo:
+
+- **O que o jogo guardou:** apague o progresso no jogo, limpe os dados do app ou desinstale-o.
+- **Consentimento de anúncios:** Opções › Privacidade e anúncios.
+- **ID de publicidade:** configurações do Android › Privacidade › Anúncios (redefinir ou excluir).
+- **Dados com o Google:** <https://myadcenter.google.com> e <https://myaccount.google.com>.
+- **Ranking e perfil do Google Play Games:** app Google Play Games › Perfil, ou <https://myaccount.google.com>.
+- **Conta Steam (PC):** ferramentas de privacidade da Valve (<https://help.steampowered.com>).
+
+Se preferir, escreva para [netstart@gmail.com](mailto:netstart@gmail.com): respondemos em até 15 dias (LGPD art. 19) ou um mês (GDPR art. 12). Você também pode reclamar à ANPD (<https://www.gov.br/anpd>) ou à autoridade de proteção de dados do seu país (no Espaço Econômico Europeu: <https://edpb.europa.eu/about-edpb/about-edpb/members_en>; no Reino Unido: <https://ico.org.uk>).
+
+**Residentes nos EUA (Califórnia e outros estados).** Nos últimos 12 meses, as únicas categorias de dados pessoais envolvidas foram identificadores (ID de publicidade, IP), atividade de internet (interações com anúncios) e geolocalização aproximada, recebidas pelo Google pelo SDK de anúncios (e, com o perfil do Google Play Games autenticado, o nome de jogador e a pontuação). Nós não vendemos dados por dinheiro, mas o uso desses identificadores para publicidade comportamental pode ser considerado "venda" ou "compartilhamento" pela CCPA/CPRA e leis semelhantes. Para recusar, use Opções › Privacidade e anúncios ("Don't sell or share my data", onde o formulário do Google aparecer) ou exclua o ID de publicidade nas configurações do Android. Não coletamos dados sensíveis e não tratamos de forma diferente quem exerce esses direitos.
+
+**Adolescentes e idade de consentimento.** Se você está abaixo da idade de consentimento digital do seu país (entre 13 e 16 anos na União Europeia), peça a um responsável para fazer a escolha do formulário de anúncios, ou escolha não consentir. Não coletamos, de forma intencional, dados de menores de 13 anos (COPPA, nos EUA). Para adolescentes no Brasil, o tratamento segue o melhor interesse deles (LGPD art. 14).
 
 **Mudanças.** Se esta política mudar, a nova versão será publicada neste endereço com a data
 atualizada. Mudanças relevantes, como trocar a rede de anúncios, também serão avisadas nas notas da versão.
@@ -107,9 +141,11 @@ atualizada. Mudanças relevantes, como trocar a rede de anúncios, também serã
 game for Android and PC (Windows, sold on Steam) made by an individual developer (GitHub: netstart),
 who is the controller of the data described here. Privacy contact: **netstart@gmail.com**.
 
-**Summary.** The game has no account, login, chat or user-generated content, and does not ask for
-your location, contacts, photos, microphone or camera. We run no server and receive no data from
-you. On Android, the game shows only optional rewarded ads that you choose to watch; there is no ad
+**Summary.** The game does not create its own account and has no chat or user-generated content. On
+Android, Google Play Games authenticates the player’s profile for leaderboards; the game sends solo
+run results to Google and displays the service’s player name. We run no server of our own and do not
+receive this data. The game does not ask for your location, contacts, photos, microphone or camera.
+On Android, the game shows only optional rewarded ads that you choose to watch; there is no ad
 when the game opens. No ad interrupts a run. The game asks for your consent where the law requires
 it. The PC edition (Steam) is a paid game that comes complete: it has no ads, no advertising ID and
 no in-game purchases (see "PC edition (Steam)").
@@ -126,6 +162,18 @@ or using Options › Erase progress removes everything from the device permanent
 for purchases through Google Play and for local network co-op; vibration is used for game effects and can be
 turned off in Options. The Google libraries bundled with the app also declare the advertising ID
 (`AD_ID`) and Google Play billing (`BILLING`) permissions.
+
+**Google Play Games (Android).** The game uses Google Play Games Services to authenticate the
+Google Play Games profile on the device and provide an online leaderboard for each guardian. When
+the profile is authenticated, the game sends Google, over the service’s encrypted connection, the
+solo run score (kills and duration encoded in a value), guardian identifier and result date. The
+leaderboard shows the score, date and player name supplied by Google Play Games; the game does not
+use a real name, email address or friends list. Google Play Games processes the profile and this
+data under [Google’s Privacy Policy](https://policies.google.com/privacy) and [Google Play Games
+privacy information](https://support.google.com/googleplay/answer/3129346?hl=en). Who can see the
+profile and results depends on the Google Play Games profile privacy settings. You can review or
+delete game data from the Google Play Games profile or your Google Account. The leaderboard needs
+an internet connection and is available only on Android; the PC edition does not use this service.
 
 **Ads (Android).** On Android, the game uses Google AdMob only for
 rewarded ads that you choose to watch; there is no ad when the game opens and no ad ever interrupts a
@@ -170,20 +218,40 @@ from children under 13. If you are a parent or guardian and believe a child sent
 the contact above.
 
 **Security, retention and deletion.** We keep no data on our own servers, so there is nothing to
-retain or delete on our side. Local data stays until you erase your progress or uninstall the app; a
+retain or delete on our side. Leaderboard data sent to Google follows Google Play Games’ retention
+periods and deletion tools. Local data stays until you erase your progress or uninstall the app; a
 copy in the Android backup stays in your Google Account and follows Google's backup rules and tools.
 On PC, local data stays until you erase your progress or delete the game's data folder.
 Data processed by Google follows Google's retention periods and tools (for example, resetting the
 advertising ID and <https://myaccount.google.com>); your Steam account data follows Valve's rules
 and tools.
 
-**Your rights (GDPR and LGPD).** You may request confirmation of processing, access, correction,
-deletion, portability and information about sharing, and withdraw consent at any time. Since we
-receive no data, in most cases the answer will be that we hold no data about you; for data processed
-by Google or Valve, we will point you to their tools. We reply within 15 days at the email above. You may
-also lodge a complaint with your local data protection authority (in Brazil, the ANPD). On Android, the legal
-basis for personalized ads is consent; for non-personalized ads and fraud prevention, legitimate
-interest.
+**Controller and data protection officer.** Under the GDPR (EU Regulation 2016/679, and its UK version) and Brazil's LGPD (Law 13,709/2018), the publisher named in "Who we are", an individual in Brazil, is the controller of what is described here. As a small-scale processing agent (ANPD Resolution 2/2022), we have not appointed a data protection officer; [netstart@gmail.com](mailto:netstart@gmail.com) serves that role. For ad, purchase and Google Play Games data, Google acts as an independent controller; on Steam, Valve does.
+
+**Legal bases.**
+
+- Personalized ads and access to device identifiers, where the law requires it: your consent (GDPR art. 6(1)(a) and art. 5(3) of the ePrivacy Directive; LGPD art. 7, I), which you can withdraw at any time in Options › Privacy and ads, without affecting what was done before.
+- Non-personalized ads, measurement and fraud prevention: legitimate interest in keeping the game free and secure (GDPR art. 6(1)(f); LGPD art. 7, IX), or consent where the law requires it.
+- Purchases, the Google Play Games leaderboard and local co-op: performing the contract and the feature you asked for (GDPR art. 6(1)(b); LGPD art. 7, V).
+
+**International transfers.** Google (ads, purchases and Google Play Games) and Valve (Steam) may process data on servers outside your country, including in the US. Google relies on standard contractual clauses and the EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), safeguards recognized by the GDPR (chapter V) and the LGPD (art. 33).
+
+**Your rights.** Under the GDPR (arts. 15 to 22) you have the right of access, rectification, erasure, restriction, portability, objection and withdrawal of consent. The LGPD (art. 18) gives equivalent rights: confirmation of processing, access, correction, anonymization, blocking or deletion, portability, information on who the data is shared with, information on the option not to consent and its consequences, withdrawal of consent and objection.
+
+Since we hold no personal data about you, most of these rights are exercised directly with the controls below:
+
+- **What the game stored:** erase your progress in the game, clear the app's data or uninstall it.
+- **Ad consent:** Options › Privacy and ads.
+- **Advertising ID:** Android settings › Privacy › Ads (reset or delete).
+- **Data held by Google:** <https://myadcenter.google.com> and <https://myaccount.google.com>.
+- **Google Play Games leaderboard and profile:** Google Play Games app › Profile, or <https://myaccount.google.com>.
+- **Steam account (PC):** Valve's privacy tools (<https://help.steampowered.com>).
+
+You can also write to [netstart@gmail.com](mailto:netstart@gmail.com): we reply within one month (GDPR art. 12) or 15 days (LGPD art. 19). You may also complain to your data protection authority (in the European Economic Area: <https://edpb.europa.eu/about-edpb/about-edpb/members_en>; in the UK: <https://ico.org.uk>; in Brazil: <https://www.gov.br/anpd>).
+
+**US residents (California and other states).** In the last 12 months, the only categories of personal information involved were identifiers (advertising ID, IP address), internet activity (ad interactions) and approximate geolocation, received by Google through the ads SDK (and, with the Google Play Games profile authenticated, the player name and score). We do not sell data for money, but using these identifiers for cross-context behavioral advertising may count as a "sale" or "sharing" under the CCPA/CPRA and similar laws. To opt out, use Options › Privacy and ads ("Don't sell or share my data", where Google's form appears) or delete the advertising ID in Android settings. We collect no sensitive personal information and do not discriminate against anyone who exercises these rights.
+
+**Teens and age of consent.** If you are below your country's age of digital consent (between 13 and 16 in the EU), ask a parent or guardian to make the choice in the ads consent form, or choose not to consent. We do not knowingly collect data from children under 13 (COPPA, in the US). For teens in Brazil, processing follows their best interest (LGPD art. 14).
 
 **Changes.** If this policy changes, the new version will be published at this address with an
 updated date. Relevant changes, such as switching ad networks, will also be announced in the release notes.
