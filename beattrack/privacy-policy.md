@@ -1,6 +1,6 @@
 # Política de privacidade — BeatTrack
 
-*Versão 1.4 · 28/11/2026 · English version below.*
+*Versão 1.5 · 28/11/2026 · English version below.*
 
 Última atualização: 28 de novembro de 2026
 
@@ -18,13 +18,17 @@ Como agente de tratamento de pequeno porte (Resolução CD/ANPD nº 2/2022), nã
 - o modo de ordenação da lista e a sua ordem manual;
 - os elementos separados das músicas que você mandou separar: no armazenamento do app (as 3 últimas) ou na pasta que você escolher em Configurações. Você os apaga com "Limpar elementos";
 - a estrutura (BPM, tempos, seções e frases) das músicas que você mandou analisar, para abrir na hora nas próximas vezes. Você a apaga com "Apagar análise";
+- as estruturas que você descreve à mão em "Estrutura manual" (título, artista, gênero, BPM e seções, no formato do emusicality). Você as apaga com "Apagar estrutura manual";
 - o modelo de separação, que já vem com o app (em instalações sem ele, só depois que você pede o download).
 
-Nada disso identifica você nem é enviado a ninguém.
+Nada disso identifica você nem é enviado para nós.
+
+**Backup na sua conta Google.** Se o backup do Android estiver ligado no aparelho, o próprio Android copia para a sua conta Google **só as estruturas manuais e a ordem da lista**, e as devolve quando você reinstala o app ou troca de aparelho. O backup é do Google, criptografado, e nós não temos acesso a ele; você o desliga nas configurações do Android (<https://support.google.com/android/answer/2819582>).
 
 **Internet.** O app usa a internet só para:
 - **os anúncios** (veja abaixo);
 - **baixar o modelo de separação**, cerca de 300 MB, só em instalações que não o trazem embutido e só quando você pede. O download vem do GitHub (<https://github.com/netstart/music-beat-android/releases>), que, como qualquer site, recebe o endereço IP do aparelho e o trata conforme a política dele (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
+- **enviar uma estrutura manual para o GitHub**, só quando você toca em "Enviar para o GitHub": o app abre o navegador numa issue **pública** do repositório do app, já preenchida com a estrutura (título, artista e seções). Nada é enviado se você não publicar; publicando, ela fica visível para qualquer pessoa, com a sua conta do GitHub, e o GitHub a trata conforme a política dele (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
 
 **Anúncios.** O app mostra um banner do Google AdMob no fim da tela principal, depois do conteúdo. Não há anúncio de tela cheia nem anúncio que interrompa a música.
 
@@ -87,13 +91,17 @@ As a small-scale processing agent (ANPD Resolution 2/2022), we have not appointe
 - the list's sort mode and your manual order;
 - the separated parts of the songs you chose to separate: in the app's storage (the last 3) or in the folder you pick in Settings. You delete them with "Clear elements";
 - the structure (BPM, beats, sections and phrases) of the songs you chose to analyze, so it opens instantly next time. You delete it with "Delete analysis";
+- the structures you describe by hand in "Manual structure" (title, artist, genre, BPM and sections, in the emusicality format). You delete them with "Delete manual structure";
 - the separation model, which comes with the app (on installs without it, only after you ask to download it).
 
-None of it identifies you or is sent to anyone.
+None of it identifies you or is sent to us.
+
+**Backup to your Google account.** If Android backup is on for your device, Android itself copies to your Google account **only the manual structures and the list order**, and restores them when you reinstall the app or change devices. The backup is Google's, encrypted, and we have no access to it; you turn it off in Android settings (<https://support.google.com/android/answer/2819582>).
 
 **Internet.** The app uses the internet only for:
 - **ads** (see below);
 - **downloading the separation model**, about 300 MB, only on installs that do not include it and only when you ask for it. The download comes from GitHub (<https://github.com/netstart/music-beat-android/releases>), which, like any website, receives the device's IP address and handles it under its own policy (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
+- **sending a manual structure to GitHub**, only when you tap "Send to GitHub": the app opens the browser on a **public** issue in the app's repository, pre-filled with the structure (title, artist and sections). Nothing is sent unless you publish it; once published it is visible to anyone, under your GitHub account, and GitHub handles it under its own policy (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
 
 **Ads.** The app shows a Google AdMob banner at the end of the main screen, after the content. There are no full-screen ads and no ads that interrupt the music.
 
