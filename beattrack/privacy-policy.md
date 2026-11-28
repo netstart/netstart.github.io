@@ -1,6 +1,6 @@
 # Política de privacidade — BeatTrack
 
-*Versão 1.1 · 27/11/2026 · English version below.*
+*Versão 1.2 · 27/11/2026 · English version below.*
 
 Última atualização: 27 de novembro de 2026
 
@@ -16,14 +16,14 @@ Como agente de tratamento de pequeno porte (Resolução CD/ANPD nº 2/2022), nã
 
 **O que o app guarda no aparelho.** Ficam **só no seu aparelho**, até você apagar os dados do app ou desinstalá-lo:
 - o modo de ordenação da lista e a sua ordem manual;
-- os elementos separados das últimas 3 músicas (cache, substituído automaticamente);
-- o modelo de separação, quando você o baixa.
+- os elementos separados das músicas que você mandou separar: no armazenamento do app (as 3 últimas) ou na pasta que você escolher em Configurações. Você os apaga com "Limpar elementos";
+- o modelo de separação, que já vem com o app (em instalações sem ele, só depois que você pede o download).
 
 Nada disso identifica você nem é enviado a ninguém.
 
 **Internet.** O app usa a internet só para:
 - **os anúncios** (veja abaixo);
-- **baixar o modelo de separação**, cerca de 300 MB, e só quando você pede. O download vem do Hugging Face (<https://huggingface.co>), que, como qualquer site, recebe o endereço IP do aparelho e o trata conforme a política dele (<https://huggingface.co/privacy>).
+- **baixar o modelo de separação**, cerca de 300 MB, só em instalações que não o trazem embutido e só quando você pede. O download vem do GitHub (<https://github.com/netstart/music-beat-android/releases>), que, como qualquer site, recebe o endereço IP do aparelho e o trata conforme a política dele (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
 
 **Anúncios.** O app mostra um banner do Google AdMob na parte de baixo da tela. Não há anúncio de tela cheia nem anúncio que interrompa a música.
 
@@ -43,11 +43,11 @@ Onde a lei exige (por exemplo, no Espaço Econômico Europeu, no Reino Unido, na
 - **Anúncios personalizados e acesso a identificadores do aparelho, onde a lei exige:** seu consentimento (LGPD art. 7º, I; GDPR art. 6(1)(a) e art. 5(3) da Diretiva ePrivacy), que pode ser retirado a qualquer momento pelo menu › Privacidade dos anúncios, sem afetar o que já foi feito antes.
 - **Anúncios não personalizados, medição e prevenção de fraude:** legítimo interesse em manter o app gratuito e seguro (LGPD art. 7º, IX; GDPR art. 6(1)(f)), ou consentimento onde a lei o exigir.
 
-**Transferência internacional.** O Google e o Hugging Face podem tratar dados em servidores fora do seu país, inclusive nos EUA. O Google adota cláusulas contratuais padrão e o EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), salvaguardas aceitas pela LGPD (art. 33) e pelo GDPR (capítulo V).
+**Transferência internacional.** O Google e o GitHub podem tratar dados em servidores fora do seu país, inclusive nos EUA. O Google adota cláusulas contratuais padrão e o EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), salvaguardas aceitas pela LGPD (art. 33) e pelo GDPR (capítulo V).
 
 **Retenção.** O que fica no aparelho permanece até você limpar os dados do app ou desinstalá-lo. Os dados de anúncio ficam com o Google pelos prazos da política dele (<https://policies.google.com/technologies/retention>).
 
-**Segurança.** Não temos servidor nem banco de dados com informações suas. Toda comunicação do app com o Google e o Hugging Face é criptografada (HTTPS/TLS).
+**Segurança.** Não temos servidor nem banco de dados com informações suas. Toda comunicação do app com o Google e o GitHub é criptografada (HTTPS/TLS).
 
 **O que o app NÃO coleta.** Nós não coletamos nome, e-mail, contatos, localização precisa, fotos, microfone, câmera nem dados sensíveis. Não há compras dentro do app.
 
@@ -84,14 +84,14 @@ As a small-scale processing agent (ANPD Resolution 2/2022), we have not appointe
 
 **What the app stores on your device.** These stay **only on your device**, until you clear the app's data or uninstall it:
 - the list's sort mode and your manual order;
-- the separated parts of the last 3 songs (cache, replaced automatically);
-- the separation model, once you download it.
+- the separated parts of the songs you chose to separate: in the app's storage (the last 3) or in the folder you pick in Settings. You delete them with "Clear elements";
+- the separation model, which comes with the app (on installs without it, only after you ask to download it).
 
 None of it identifies you or is sent to anyone.
 
 **Internet.** The app uses the internet only for:
 - **ads** (see below);
-- **downloading the separation model**, about 300 MB, and only when you ask for it. The download comes from Hugging Face (<https://huggingface.co>), which, like any website, receives the device's IP address and handles it under its own policy (<https://huggingface.co/privacy>).
+- **downloading the separation model**, about 300 MB, only on installs that do not include it and only when you ask for it. The download comes from GitHub (<https://github.com/netstart/music-beat-android/releases>), which, like any website, receives the device's IP address and handles it under its own policy (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
 
 **Ads.** The app shows a Google AdMob banner at the bottom of the screen. There are no full-screen ads and no ads that interrupt the music.
 
@@ -111,11 +111,11 @@ Where the law requires it (for example in the European Economic Area, the UK, Sw
 - **Personalized ads and access to device identifiers, where the law requires it:** your consent (GDPR art. 6(1)(a) and art. 5(3) of the ePrivacy Directive; LGPD art. 7, I), which you can withdraw at any time in the menu › Ad privacy, without affecting what was done before.
 - **Non-personalized ads, measurement and fraud prevention:** legitimate interest in keeping the app free and secure (GDPR art. 6(1)(f); LGPD art. 7, IX), or consent where the law requires it.
 
-**International transfers.** Google and Hugging Face may process data on servers outside your country, including in the US. Google relies on standard contractual clauses and the EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), safeguards recognized by the GDPR (chapter V) and the LGPD (art. 33).
+**International transfers.** Google and GitHub may process data on servers outside your country, including in the US. Google relies on standard contractual clauses and the EU-U.S. Data Privacy Framework (<https://business.safety.google/adsprocessorterms/>), safeguards recognized by the GDPR (chapter V) and the LGPD (art. 33).
 
 **Retention.** What stays on the device remains until you clear the app's data or uninstall it. Ad data is kept by Google for the periods in its policy (<https://policies.google.com/technologies/retention>).
 
-**Security.** We have no server or database holding your information. All of the app's traffic with Google and Hugging Face is encrypted (HTTPS/TLS).
+**Security.** We have no server or database holding your information. All of the app's traffic with Google and GitHub is encrypted (HTTPS/TLS).
 
 **What the app does NOT collect.** We do not collect name, e-mail, contacts, precise location, photos, microphone, camera or any sensitive data. There are no in-app purchases.
 
