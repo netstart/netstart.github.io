@@ -1,6 +1,6 @@
 # Política de privacidade — BeatTrack
 
-*Versão 1.2 · 27/11/2026 · English version below.*
+*Versão 1.3 · 27/11/2026 · English version below.*
 
 Última atualização: 27 de novembro de 2026
 
@@ -25,7 +25,7 @@ Nada disso identifica você nem é enviado a ninguém.
 - **os anúncios** (veja abaixo);
 - **baixar o modelo de separação**, cerca de 300 MB, só em instalações que não o trazem embutido e só quando você pede. O download vem do GitHub (<https://github.com/netstart/music-beat-android/releases>), que, como qualquer site, recebe o endereço IP do aparelho e o trata conforme a política dele (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
 
-**Anúncios.** O app mostra um banner do Google AdMob na parte de baixo da tela. Não há anúncio de tela cheia nem anúncio que interrompa a música.
+**Anúncios.** O app mostra um banner do Google AdMob no fim da tela principal, depois do conteúdo. Não há anúncio de tela cheia nem anúncio que interrompa a música.
 
 O SDK do Google Mobile Ads, operado pelo Google, pode coletar e compartilhar com o Google, de forma criptografada (TLS):
 - o endereço IP (para estimar a região);
@@ -93,7 +93,7 @@ None of it identifies you or is sent to anyone.
 - **ads** (see below);
 - **downloading the separation model**, about 300 MB, only on installs that do not include it and only when you ask for it. The download comes from GitHub (<https://github.com/netstart/music-beat-android/releases>), which, like any website, receives the device's IP address and handles it under its own policy (<https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement>).
 
-**Ads.** The app shows a Google AdMob banner at the bottom of the screen. There are no full-screen ads and no ads that interrupt the music.
+**Ads.** The app shows a Google AdMob banner at the end of the main screen, after the content. There are no full-screen ads and no ads that interrupt the music.
 
 The Google Mobile Ads SDK, operated by Google, may collect and share with Google, encrypted in transit (TLS):
 - the IP address (to estimate the region);
