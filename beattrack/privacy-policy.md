@@ -1,8 +1,8 @@
 # Política de privacidade — BeatTrack
 
-*Versão 1.3 · 27/11/2026 · English version below.*
+*Versão 1.4 · 28/11/2026 · English version below.*
 
-Última atualização: 27 de novembro de 2026
+Última atualização: 28 de novembro de 2026
 
 ## Português (Brasil)
 
@@ -17,6 +17,7 @@ Como agente de tratamento de pequeno porte (Resolução CD/ANPD nº 2/2022), nã
 **O que o app guarda no aparelho.** Ficam **só no seu aparelho**, até você apagar os dados do app ou desinstalá-lo:
 - o modo de ordenação da lista e a sua ordem manual;
 - os elementos separados das músicas que você mandou separar: no armazenamento do app (as 3 últimas) ou na pasta que você escolher em Configurações. Você os apaga com "Limpar elementos";
+- a estrutura (BPM, tempos, seções e frases) das músicas que você mandou analisar, para abrir na hora nas próximas vezes. Você a apaga com "Apagar análise";
 - o modelo de separação, que já vem com o app (em instalações sem ele, só depois que você pede o download).
 
 Nada disso identifica você nem é enviado a ninguém.
@@ -85,6 +86,7 @@ As a small-scale processing agent (ANPD Resolution 2/2022), we have not appointe
 **What the app stores on your device.** These stay **only on your device**, until you clear the app's data or uninstall it:
 - the list's sort mode and your manual order;
 - the separated parts of the songs you chose to separate: in the app's storage (the last 3) or in the folder you pick in Settings. You delete them with "Clear elements";
+- the structure (BPM, beats, sections and phrases) of the songs you chose to analyze, so it opens instantly next time. You delete it with "Delete analysis";
 - the separation model, which comes with the app (on installs without it, only after you ask to download it).
 
 None of it identifies you or is sent to anyone.
